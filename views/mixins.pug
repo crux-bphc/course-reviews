@@ -1,0 +1,9 @@
+mixin stars(number)
+    - var n = 0;
+    span.stars
+        while n < number
+            img(src="/star-filled.png")
+            - n++
+        while n < 5
+            img(src="/star-empty.png")
+            - n++

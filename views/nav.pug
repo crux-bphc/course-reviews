@@ -1,0 +1,10 @@
+nav
+    h3 BPHC Course Reviews
+    a(href="/") Home
+    a(href="/courses") Search
+    if !user
+        a.float-right(href="/auth/google") Login
+    if user
+        a.float-right(href="/auth/google/logout") Logout
+    .clearfix
+     

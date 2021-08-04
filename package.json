@@ -1,0 +1,37 @@
+{
+  "name": "cfb",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-session": "^1.17.2",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "passport": "^0.4.1",
+    "passport-google-oauth": "^2.0.0",
+    "passport-google-oauth2": "^0.2.0",
+    "pug": "2.0.0-beta11",
+    "sequelize": "^6.6.5",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.2",
+    "@types/express-session": "^1.17.4",
+    "@types/faker": "^5.5.7",
+    "@types/http-errors": "^1.8.1",
+    "@types/morgan": "^1.9.3",
+    "@types/node": "^16.4.10",
+    "@types/passport": "^1.0.7",
+    "@types/passport-google-oauth": "^1.0.42",
+    "@types/passport-google-oauth2": "^0.1.4",
+    "faker": "^5.5.3",
+    "pdf2json": "^1.2.3",
+    "typescript": "^4.3.5"
+  }
+}

@@ -1,0 +1,62 @@
+extends layout
+block title
+    title="Write a review for " + course.course_code + " " + course.course_name
+block content
+    h1.course-page-title
+        img(src="/book.png", alt="book" width=36 height=36)
+        |Review 
+        =course.course_code 
+        | 
+        =course.course_name 
+    b Offered by &nbsp;
+        span=course.instructors 
+    p Thank you for taking the time to review the course. Please, write in detail and provide accurate information. Fields marked with * are required.
+    h4
+        img(src="/star-filled.png" width=16).middle
+        |For ratings, 1 is worst, while 5 is the best.
+    form(action="/course/postReview" method="POST") 
+        label
+            <input type="checkbox" name="anonymous" value="anonymous"> Post anonymously
+        br
+        hr
+        input(type="hidden" name="course_code" value=course.course_code)
+        label Short Review Title*
+            input.inp(type="text" name="review_title" required minlength="10" maxlength="100") 
+        label Overall Rating*
+            img(src="/star-filled.png" width=16).middle
+            select.inp(name="general_feedback_score")
+                option(value="1") 1
+                option(value="2") 2
+                option(value="3") 3
+                option(value="4") 4
+                option(value="5") 5
+        label Overall Review*
+            textarea.inp(type="text"  name="general_feedback" required minlength="20" maxlength="500") 
+        label Grading Rating
+            img(src="/star-filled.png" width=16).middle
+            select.inp(name="grading_score")
+                option(value="1") 1
+                option(value="2") 2
+                option(value="3") 3
+                option(value="4") 4
+                option(value="5") 5
+        label Grading Review
+        textarea.inp(type="text"  name="grading" maxlength="500") 
+        label Liteness Rating
+            select.inp(name="liteness_score")
+                option(value="1") 1
+                option(value="2") 2
+                option(value="3") 3
+                option(value="4") 4
+                option(value="5") 5
+        label Liteness Review
+            img(src="/star-filled.png" width=16).middle
+        textarea.inp(type="text"  name="liteness" maxlength="500") 
+        label Suggestions ( One-liner )
+        input.inp(type="text"  name="suggestions" maxlength="500")
+        label
+            <input type="checkbox" name="recommend" value="recommend"> I would recommend this course
+        br
+        hr
+        input.btn(type="submit" value="Post Review")
+

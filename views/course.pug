@@ -1,0 +1,16 @@
+extends layout
+block title
+    title Search for courses - BPHC Course Reviews"
+block content
+  script(src="javascripts/generated-courses-list.js")
+  div.search-bar
+    input.course-search(type="search" placeholder="eg. HSS F222 LINGUISTICS" autofocus)#course-search
+    button(onclick="doSearch()")
+      img(src="/search.png", alt="mag glass")
+  hr
+  div#results
+    .text-center
+      h3 Search courses by name, code or instructor.
+      p Then you can view or add reviews and attachments.
+      .btn(onclick="doSearch()") Show all
+  script(src="javascripts/course-search.js") 

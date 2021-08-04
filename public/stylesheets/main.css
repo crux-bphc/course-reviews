@@ -1,0 +1,362 @@
+/* Divyanshu's minimal CSS */
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: rgb(241, 157, 46);
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.attachments-form {
+  margin-top: 50px;
+}
+
+li.trans {
+  opacity: 0.2;
+}
+
+li.trans:hover {
+  opacity: 1;
+  background-color: rgb(236, 224, 224);
+}
+
+.inp {
+  display: block;
+  width: 300px;
+  max-width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid lightgray;
+  padding: 5px 10px;
+}
+
+textarea.inp {
+  width: 300px;
+  height: 200px;
+  resize: vertical;
+  max-height: 500px;
+  min-height: 200px;
+}
+
+.btn {
+  padding: 5px 20px;
+  display: inline-block;
+  margin-bottom: 2px;
+  background: rgb(66, 66, 66);
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 0px 5px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: rgb(20, 20, 20);
+}
+
+nav {
+  padding: 5px 0px;
+  margin: 5px 0px;
+  border-bottom: 1px solid rgb(82, 82, 82);
+}
+
+.block {
+  width: 100%;
+  display: block;
+}
+
+/* Grid system code from https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_mobilefirst */
+.row::after,
+.clearfix {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 10px 0px 10px 0px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  padding: 5px;
+  margin: 10px auto;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid whitesmoke;
+  margin: 15px 0px 15px 0px;
+}
+
+.messages li {
+  border-bottom: 1px solid whitesmoke;
+  margin-bottom: 10px;
+  padding-bottom: 25px;
+}
+
+ul.results {
+  list-style-type: none;
+  padding: 0px;
+}
+
+ul.results li {
+  padding: 10px 0px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid lightgray;
+}
+
+.text-center {
+  text-align: center;
+}
+
+nav a {
+  display: inline-block;
+  padding: 8px 10px;
+  background: var(--primary);
+  color: black;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+#results table,
+td {
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+
+thead tr td {
+  background-color: var(--primary);
+  font-weight: bold;
+}
+
+.reviewList {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.main-icon {
+  margin-top: 50px;
+}
+
+.votebox img {
+  cursor: pointer;
+}
+
+.middle {
+  vertical-align: middle;
+}
+
+.votebox img:hover {
+  background-color: grey;
+}
+
+.profile img.pic {
+  width: 24px;
+  height: 24px;
+  margin: -15px 5px 0px 5px;
+  border: 1px solid black;
+  border-radius: 500px;
+  vertical-align: bottom;
+}
+
+h1.title {
+  font-size: 60px;
+  color: rgb(153, 105, 16);
+  margin-top: 0px;
+}
+
+.votebox h4 {
+  margin: 0px !important;
+}
+
+h2.reviewTitle img {
+  vertical-align: middle;
+  width: 28px;
+  height: 28px;
+  margin-right: 5px;
+}
+
+.course-search {
+  padding: 5px 10px;
+  /* width: 500px; */
+  width: 75%;
+  font-size: 150%;
+  /* max-width: 100%; */
+}
+
+.search-bar button {
+  padding: 5px 10px;
+  font-size: 150%;
+  width: 20%;
+  margin-left: 5px;
+}
+.search-bar button img {
+  width: 20px;
+  height: 20px;
+}
+
+.course-name {
+  color: black;
+  text-decoration: none;
+}
+
+.course-link {
+  display: none;
+}
+
+.s .stars img {
+  width: 20px;
+  height: 20px;
+}
+
+small .stars img {
+  width: 15px;
+  height: 15px;
+}
+
+h1 img {
+  vertical-align: middle;
+}
+
+.review h4 {
+  margin-bottom: 0px;
+}
+
+.review p {
+  margin-top: 4px;
+}
+
+.review {
+  border-bottom: 1px solid rgb(170, 170, 170);
+  margin-bottom: 20px;
+}
+
+.vote {
+  width: 20px;
+}
+
+.share {
+  background: rgb(34, 109, 144);
+}
+
+.review {
+  padding: 0px;
+}
+
+.ins {
+  margin-left: 38px;
+}
+
+.review .row .col-1 {
+  width: 8.33%;
+}
+
+.review .row .col-11 {
+  padding-left: 10px;
+  width: 91.66%;
+}
+
+.noReview {
+  padding: 40px 20px;
+  background: rgb(241, 227, 164);
+}
+
+.reviewList {
+  margin-left: -10px;
+}
+
+h1.course-page-title img {
+  width: 32px;
+}
+
+@media only screen and (min-width: 768px) {
+  h1.course-page-title img {
+    width: auto;
+  }
+
+  .course-link {
+    display: block;
+  }
+
+  .reviewList {
+    margin-left: 0px;
+  }
+
+  .review {
+    padding: 15px;
+  }
+
+  [class*="col-"] {
+    padding: 15px;
+  }
+
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+    padding-left: 0px;
+  }
+  .col-12 {
+    width: 100%;
+  }
+
+  .container {
+    width: 900px;
+    margin: 50px auto;
+    padding: 10px;
+  }
+}

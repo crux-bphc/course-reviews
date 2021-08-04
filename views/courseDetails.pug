@@ -1,0 +1,93 @@
+extends layout
+include ./mixins.pug
+block title
+    title="Reviews for " + course.course_code + " " + course.course_name
+block content
+  script!="const courseDetails="+JSON.stringify(courseDetails)
+  script(src="/javascripts/vote.js")
+  script(src="/javascripts/share.js") 
+  h1.course-page-title
+    img(src="/book.png", alt="book")
+    =course.course_name
+  h4!="Course reviews and materials for " + course.course_name + " " + course.course_code + ". This time, offered by " + course.instructors || "unknown team members."
+  p You can write a review, or attach materials like handouts and other relevant files. 
+    a(onclick="share()" href="javascript:void()") Share this page
+  hr
+  a.btn(href="/course/review/"+course.course_code.replace(" ","_")+"/"+course.course_name.replace(" ","_")).writeReview  Write a review
+  a.btn(href="#attachments-form") Attach material
+  hr
+  details
+    summary Show Attachments
+    if !attachments || attachments.length===0
+        p No attachments yet.
+    else
+        each attachment in attachments
+            ul
+                li
+                    a(href=attachment.weburl)=attachment.name
+  if !reviews || reviews.length==0
+    h2.text-center.noReview No reviews yet. You can add yours, or ask someone to add a review by sharing the link to this page.
+      br
+      br
+      a(onclick="share()" href="javascript:void()").btn Share this page
+      a.btn(href="/course/review/"+course.course_code.replace(" ","_")+"/"+course.course_name.replace(" ","_")) Write a review
+
+  else
+    ul.reviewList
+        each review in reviews
+            li.review(class=(review.upvotes-review.downvotes)<0?"trans":"full")
+                .row
+                    .col-1.text-center.votebox
+                        img(src="/upvote.png" onclick='upvote("'+review.id+'")').vote
+                        h4(id="votes-"+review.id)=(review.upvotes-review.downvotes)*10
+                        img(src="/downvote.png" onclick='downvote("'+review.id+'")').vote
+                        
+                    .col-11
+                        div
+                            h2.reviewTitle
+                                if review.recommend==1
+                                    img(src="/check.png", alt="Recommended")
+                                else
+                                    img(src="/cross.png", alt="Not recommended")
+                                =review.review_title
+                            .profile
+                                +stars(review.general_feedback_score)
+                                if !review.anonymous
+                                    img(src=review.photo, alt="Profile Picture").pic
+                                    span.tiny By 
+                                        span=review.name
+                            p=review.general_feedback||"The reviewer did not leave any general feedback."
+                            h4 Grading &nbsp;
+                                small
+                                    +stars(review.grading_score)
+                            p=review.grading||"The review did not mention anything about grading."
+                            h4 Liteness &nbsp;
+                                small
+                                    +stars(review.liteness_score)
+
+                            p=review.liteness||"The review did not mention anything about liteness."
+
+                            h4 Suggestions
+                            p=review.suggestions||"The reviewer did not leave any suggestions."
+                            small.float-right Posted on 
+                                span=new Date(review.timestamp || Date.now()).toLocaleString()
+                            .clearfix
+  div#attachments-form.attachments-form
+      h1 Add attachment
+      p You can share a URL to a Google Drive document ( for example, pdf of Handout, pdf of important notes etc. ).
+      ul
+          li Please name the file accurately. Example "Handout 2021-22.pdf" or "Slides Prof ABC.zip"
+          li Please ensure permissions of the file are set to "anyone can view in BITS".
+
+      form(action="/course/addAttachment" method="POST")
+          input(type="hidden" name="course_code" value=course.course_code)
+          input(type="hidden" name="course_name" value=course.course_name)
+          label Attachment File Name
+              input.inp(type="text" name="name" required minlength="5" maxlength="100") 
+          label Google Drive Link
+              input.inp(type="url" name="weburl" required minlength="5" maxlength="500")
+          input.btn(type="submit" value="Post attachment")
+
+
+
+                    
