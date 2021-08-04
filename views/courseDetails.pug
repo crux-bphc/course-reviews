@@ -19,12 +19,17 @@ block content
   details
     summary Show Attachments
     if !attachments || attachments.length===0
-        p No attachments yet.
+        ul
+            li
+                a(href="https://tinyurl.com/cms-backups") CMS Backups by Abhijeet V
     else
-        each attachment in attachments
-            ul
+        ul
+            each attachment in attachments
                 li
                     a(href=attachment.weburl)=attachment.name
+            li
+                a(href="https://tinyurl.com/cms-backups") CMS Backups by Abhijeet V
+    
   if !reviews || reviews.length==0
     h2.text-center.noReview No reviews yet. You can add yours, or ask someone to add a review by sharing the link to this page.
       br
