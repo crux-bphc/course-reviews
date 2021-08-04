@@ -151,23 +151,23 @@ function makeid(length: number) {
   return result;
 }
 
-import faker from "faker";
-async function garbage_courses() {
-  const db = await getDB();
-  const stmt = await db.prepare(
-    "INSERT INTO courses (com_code, course_code, course_name, instructors) values (?, ?, ?, ?);"
-  );
+// import faker from "faker";
+// async function garbage_courses() {
+//   const db = await getDB();
+//   const stmt = await db.prepare(
+//     "INSERT INTO courses (com_code, course_code, course_name, instructors) values (?, ?, ?, ?);"
+//   );
 
-  for (let i = 0; i < 500; i++) {
-    stmt.bind(
-      1200 + i,
-      makeid(3) + faker.datatype.number(5000),
-      faker.hacker.noun() + " " + faker.hacker.noun(),
-      faker.name.firstName() + " " + faker.name.lastName()
-    );
+//   for (let i = 0; i < 500; i++) {
+//     stmt.bind(
+//       1200 + i,
+//       makeid(3) + faker.datatype.number(5000),
+//       faker.hacker.noun() + " " + faker.hacker.noun(),
+//       faker.name.firstName() + " " + faker.name.lastName()
+//     );
 
-    stmt.run();
-  }
-}
-garbage_courses();
-test();
+//     stmt.run();
+//   }
+// }
+// garbage_courses();
+// test();
