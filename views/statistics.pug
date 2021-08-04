@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1 Statistics
+  ul
+    li Number of courses: 
+      span=stats.numCourses
+    li Number of reviews: 
+      span=stats.numReviews
+    li Number of accounts: 
+      span=stats.numAccounts
+    li Number of attachments: 
+      span=stats.numAttachments
+    li Total hits on course review pages: 
+      span=stats.totalHits

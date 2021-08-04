@@ -40,6 +40,7 @@ export type Course = {
   course_code: string;
   course_name: string;
   instructors: string;
+  hits: number;
 };
 
 export type Without<T, K> = Pick<T, Exclude<keyof T, K>>;

@@ -1,6 +1,8 @@
 import { writeFileSync } from "fs";
 import { getCourses } from "./sql";
 
+// Convert SQL table to JSON for static search feature. Run after every course-list change.
+
 async function run() {
   console.log("Fetching from DB");
   const courses = await getCourses();

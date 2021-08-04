@@ -6,6 +6,7 @@ import {
   getCourse,
   getCourses,
   getFeedback,
+  increaseHitsCourse,
   saveAttachment,
   saveFeedback,
   upvote,
@@ -28,7 +29,7 @@ router.get(
   async function (req, res, next) {
     const courseCode = req.params.course_code.replace("_", " ");
     const courseDetails = await getCourse(courseCode);
-    res.render("write", {
+    return res.render("write", {
       course: courseDetails,
       user: req.user,
     });
@@ -109,7 +110,7 @@ router.get("/:course_code/:course_name", auth, async function (req, res, next) {
   const reviews = await getFeedback(courseCode);
   const attachments = await getAttachment(courseCode);
 
-  console.log(courseDetails);
+  increaseHitsCourse(courseCode);
 
   res.render("courseDetails", {
     user: req.user,

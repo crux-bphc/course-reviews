@@ -26,6 +26,7 @@ async function processLineByLine() {
         course_code: row[2].trim(),
         course_name: row[4].trim(),
         instructors: "",
+        hits: 0,
       });
     }
     const newInstructor = row[15].trim();
@@ -48,9 +49,9 @@ async function processLineByLine() {
     }
   }
 
-  let csv = "com_code,course_code,course_name,instructors\n";
+  let csv = "com_code,course_code,course_name,instructors,hits\n";
   courses.forEach((course) => {
-    csv += `${course.com_code},"${course.course_code}","${course.course_name}","${course.instructors}"\n`;
+    csv += `${course.com_code},"${course.course_code}","${course.course_name}","${course.instructors}",${course.hits}\n`;
   });
 
   fs.writeFileSync("output.csv", csv);

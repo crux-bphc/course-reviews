@@ -65,6 +65,13 @@ export async function saveFeedback(feedback: Without<Feedback, "id">) {
   );
 }
 
+export async function increaseHitsCourse(course_code: string) {
+  const db = await getDB();
+  await db.run("UPDATE courses SET hits = hits + 1 WHERE course_code = ?", [
+    course_code,
+  ]);
+}
+
 export async function getFeedback(course_code: string): Promise<[Feedback]> {
   const db = await getDB();
   return await db.all(
@@ -99,75 +106,22 @@ export async function getCourse(
   ]);
 }
 
-// module.exports = {
-//   createAllTables,
-//   getUser,
-//   getDB,
-//   saveUser,
-//   saveFeedback,
-//   getFeedback,
-//   saveAttachment,
-//   getAttachment,
-//   getCourse,
-// };
+export async function getStats() {
+  const db = await getDB();
+  const promises = [
+    db.get("SELECT COUNT(*) FROM courses"),
+    db.get("SELECT COUNT(*) FROM feedbacks"),
+    db.get("SELECT COUNT(*) FROM users"),
+    db.get("SELECT COUNT(*) FROM attachments"),
+    db.get("SELECT SUM(hits) FROM courses"),
+  ];
 
-export async function test() {
-  const user = {
-    email: "test@localhost",
-    google_id: "1",
-    name: "Admin\n",
-    photo: "",
-    admin: 1,
+  const result = await Promise.all(promises);
+  return {
+    numCourses: result[0]["COUNT(*)"],
+    numReviews: result[1]["COUNT(*)"],
+    numAccounts: result[2]["COUNT(*)"],
+    numAttachments: result[3]["COUNT(*)"],
+    totalHits: result[4]["SUM(hits)"],
   };
-
-  const feedback = {
-    email: "lolcat@jsonable",
-    name: "",
-    course_code: "BIO F111",
-    recommend: 1,
-    anonymous: 1,
-    general_feedback: "",
-    general_feedback_score: 5,
-    grading: "",
-    grading_score: 5,
-    liteness: "",
-    liteness_score: 5,
-    suggestions: "",
-    upvotes: 0,
-    downvotes: 0,
-  };
-
-  // await saveFeedback(feedback);
-  // console.log(await getFeedback("BIO F111"));
 }
-
-function makeid(length: number) {
-  var result = "";
-  var characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  var charactersLength = characters.length;
-  for (var i = 0; i < length; i++) {
-    result += characters.charAt(Math.floor(Math.random() * charactersLength));
-  }
-  return result;
-}
-
-// import faker from "faker";
-// async function garbage_courses() {
-//   const db = await getDB();
-//   const stmt = await db.prepare(
-//     "INSERT INTO courses (com_code, course_code, course_name, instructors) values (?, ?, ?, ?);"
-//   );
-
-//   for (let i = 0; i < 500; i++) {
-//     stmt.bind(
-//       1200 + i,
-//       makeid(3) + faker.datatype.number(5000),
-//       faker.hacker.noun() + " " + faker.hacker.noun(),
-//       faker.name.firstName() + " " + faker.name.lastName()
-//     );
-
-//     stmt.run();
-//   }
-// }
-// garbage_courses();
-// test();
