@@ -35,12 +35,16 @@ function initializePassport() {
 
         if (!user.email.endsWith("bits-pilani.ac.in")) {
           console.warn("Not a BITSian");
-          return cb(null, undefined, { message: "Invalid email" });
+          return cb(null, undefined, {
+            message: "You must use a BITS Pilani email.",
+          });
         }
 
         if (!user.email.startsWith("f20") && !user.email.startsWith("h20")) {
           console.warn("Not a student");
-          return cb(null, undefined, { message: "Not a student." });
+          return cb(null, undefined, {
+            message: "This website is mainly for students.",
+          });
         }
 
         return cb(null, user);

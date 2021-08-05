@@ -8,6 +8,10 @@ router.get("/", async function (req, res, next) {
   res.render("index", { user: req.user });
 });
 
+router.get("/login-failed", function (req, res) {
+  return res.render("loginFailed");
+});
+
 router.get("/stats", auth, async function (req, res) {
   const stats = await getStats();
   res.render("statistics", { stats, user: req.user });

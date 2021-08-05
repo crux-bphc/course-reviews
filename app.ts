@@ -66,7 +66,7 @@ app.get("/auth/google/logout", function (req, res) {
 
 app.get(
   "/auth/google/callback",
-  passport.authenticate("google", { failureRedirect: "/" }),
+  passport.authenticate("google", { failureRedirect: "/login-failed" }),
   function (req, res) {
     if (req.session.redirect) {
       res.redirect(req.session.redirect);
