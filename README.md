@@ -17,6 +17,27 @@ echo "Node.js App starting in " $(pwd)
 
 This will be used to launch the application in production.
 
+# Systemd Service for Express Application
+
+Assuming the user the service runs as is named `ubuntu`.
+
+```
+[Unit]
+Description=BPHC Course Reviews website
+After=network.target
+
+[Service]
+Environment=NODE_PORT=3000
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/cfb
+ExecStart=/usr/bin/bash /home/ubuntu/cfb/launcher.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+```
+
 # Configure NGINX Reverse Proxy ( systemd )
 
 Create a file `bphc-reviews-proxy.conf` in `/etc/nginx/conf.d`.
