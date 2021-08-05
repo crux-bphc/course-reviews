@@ -97,6 +97,13 @@ export async function getAttachment(
   ]);
 }
 
+export async function getLast10Feedbacks(): Promise<[Feedback]> {
+  const db = await getDB();
+  return await db.all(
+    "SELECT * FROM feedbacks  ORDER BY timestamp DESC LIMIT 10"
+  );
+}
+
 export async function getCourse(
   course_code: string
 ): Promise<Course | undefined> {

@@ -1,0 +1,12 @@
+extends layout
+include ./mixins.pug
+block title
+    title="List of recent Reviews - BPHC Course Reviews" 
+block content
+    script(src="/javascripts/vote.js")
+    h1 Most Recent Reviews
+    ul.reviewList
+        each review in reviews
+            h4 Review for 
+                a(href=`/courses/${review.course_code.replaceAll(" ","_")}`)=review.course_code
+            +renderedReview(review)

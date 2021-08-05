@@ -6,6 +6,7 @@ import {
   getCourse,
   getCourses,
   getFeedback,
+  getLast10Feedbacks,
   increaseHitsCourse,
   saveAttachment,
   saveFeedback,
@@ -21,6 +22,11 @@ function spaceToScore(str: string) {
 /* GET users listing. */
 router.get("/", auth, async function (req, res, next) {
   res.render("course", { user: req.user });
+});
+
+router.get("/reviews/list", auth, async function (req, res) {
+  const reviews = await getLast10Feedbacks();
+  return res.render("list", { user: req.user, reviews });
 });
 
 router.get(
@@ -104,20 +110,24 @@ router.get("/downvote", auth, async function (req, res, next) {
   res.end(await downvote(feedbackId));
 });
 
-router.get("/:course_code/:course_name", auth, async function (req, res, next) {
-  const courseCode = req.params.course_code.replace("_", " ");
-  const courseDetails = await getCourse(courseCode);
-  const reviews = await getFeedback(courseCode);
-  const attachments = await getAttachment(courseCode);
+router.get(
+  ["/:course_code/:course_name", "/:course_code/"],
+  auth,
+  async function (req, res, next) {
+    const courseCode = req.params.course_code.replace("_", " ");
+    const courseDetails = await getCourse(courseCode);
+    const reviews = await getFeedback(courseCode);
+    const attachments = await getAttachment(courseCode);
 
-  increaseHitsCourse(courseCode);
+    increaseHitsCourse(courseCode);
 
-  res.render("courseDetails", {
-    user: req.user,
-    course: courseDetails,
-    reviews,
-    attachments,
-  });
-});
+    res.render("courseDetails", {
+      user: req.user,
+      course: courseDetails,
+      reviews,
+      attachments,
+    });
+  }
+);
 
 export default router;
