@@ -29,12 +29,22 @@ function initializePassport() {
           admin: 0,
         };
 
-        if (!user.email.endsWith("bits-pilani.ac.in")) {
-          cb(null, undefined, { message: "Invalid email" });
-        }
-
         if ((await getUser(user.email)) === undefined) {
           await saveUser(user);
+        }
+
+        if (!user.email.endsWith("bits-pilani.ac.in")) {
+          console.warn("Not a BITSian");
+          return cb(null, undefined, { message: "Invalid email" });
+        }
+
+        if (
+          !user.email.startsWith("f20") &&
+          !user.email.startsWith("p20") &&
+          !user.email.startsWith("h20")
+        ) {
+          console.warn("Not a student");
+          return cb(null, undefined, { message: "Not a student." });
         }
 
         return cb(null, user);
