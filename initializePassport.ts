@@ -37,18 +37,20 @@ function initializePassport() {
           await saveUser(user);
         }
 
-        if (!user.email.endsWith("bits-pilani.ac.in")) {
-          console.warn("Not a BITSian");
-          return cb(null, undefined, {
-            message: "You must use a BITS Pilani email.",
-          });
-        }
+        if (!user.admin) {
+          if (!user.email.endsWith("bits-pilani.ac.in")) {
+            console.warn("Not a BITSian");
+            return cb(null, undefined, {
+              message: "You must use a BITS Pilani email.",
+            });
+          }
 
-        if (!user.email.startsWith("f20") && !user.email.startsWith("h20")) {
-          console.warn("Not a student");
-          return cb(null, undefined, {
-            message: "This website is mainly for students.",
-          });
+          if (!user.email.startsWith("f20") && !user.email.startsWith("h20")) {
+            console.warn("Not a student");
+            return cb(null, undefined, {
+              message: "This website is mainly for students.",
+            });
+          }
         }
 
         return cb(null, user);
