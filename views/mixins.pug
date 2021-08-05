@@ -10,39 +10,43 @@ mixin stars(number)
 
 mixin renderedReview(review)
     li.review(class=(review.upvotes-review.downvotes)<0?"trans":"full")
-                    .row
-                        .col-1.text-center.votebox
-                            img(src="/upvote.png" onclick='upvote("'+review.id+'")').vote
-                            h4(id="votes-"+review.id)=(review.upvotes-review.downvotes)*10
-                            img(src="/downvote.png" onclick='downvote("'+review.id+'")').vote
-                            
-                        .col-11
-                            div
-                                h2.reviewTitle
-                                    if review.recommend==1
-                                        img(src="/check.png", alt="Recommended")
-                                    else
-                                        img(src="/cross.png", alt="Not recommended")
-                                    =review.review_title
-                                .profile
-                                    +stars(review.general_feedback_score)
-                                    if !review.anonymous
-                                        img(src=review.photo, alt="Profile Picture").pic
-                                        span.tiny By 
-                                            span=review.name
-                                p=review.general_feedback||"The reviewer did not leave any general feedback."
-                                h4 Grading &nbsp;
-                                    small
-                                        +stars(review.grading_score)
-                                p=review.grading||"The review did not mention anything about grading."
-                                h4 Liteness &nbsp;
-                                    small
-                                        +stars(review.liteness_score)
+        .row
+            .col-1.text-center.votebox
+                img(src="/upvote.png" onclick='upvote("'+review.id+'")' title="Upvote" alt="Upvote").vote
+                h4(id="votes-"+review.id)=(review.upvotes-review.downvotes)*10
+                img(src="/downvote.png" onclick='downvote("'+review.id+'")' title="Downvote" alt="Downvote").vote
+                
+            .col-11
+                div
+                    if review.recommend==1
+                        span.recPill
+                            img(src="/check.png", alt="Recommended")
+                            |Course recommended
+                    else
+                        span.recPill.notRecommended
+                            img(src="/cross.png", alt="Not recommended")
+                            |Course not recommended
+                    h2.reviewTitle
+                        =review.review_title
+                    .profile
+                        +stars(review.general_feedback_score)
+                        if !review.anonymous
+                            img(src=review.photo, alt="Profile Picture").pic
+                            span.tiny By 
+                                span=review.name
+                    p=review.general_feedback||"The reviewer did not leave any general feedback."
+                    h4 Grading &nbsp;
+                        small
+                            +stars(review.grading_score)
+                    p=review.grading||"The review did not mention anything about grading."
+                    h4 Liteness &nbsp;
+                        small
+                            +stars(review.liteness_score)
 
-                                p=review.liteness||"The review did not mention anything about liteness."
+                    p=review.liteness||"The review did not mention anything about liteness."
 
-                                h4 Suggestions
-                                p=review.suggestions||"The reviewer did not leave any suggestions."
-                                small.float-right Posted on 
-                                    span=new Date(review.timestamp || Date.now()).toLocaleString()
-                                .clearfix
+                    h4 Suggestions
+                    p=review.suggestions||"The reviewer did not leave any suggestions."
+                    small.float-right Posted on 
+                        span=new Date(review.timestamp || Date.now()).toDateString()
+                    .clearfix

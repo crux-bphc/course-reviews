@@ -1,0 +1,39 @@
+extends layout
+block title
+    title Add a new course in list
+block content
+  h1
+    img(src="/school.png", alt="School icon")
+    span &nbsp; Add a course to the course list
+  p Before you create a new course:
+  ul
+    li Ensure the course does not exist already in the 
+      a(href="/courses") list.
+    li Ensure you enter accurate information.
+    li Enter correct information from the official time-table.
+
+  b.red Your name will be recorded. If you abuse this system, you will be banned.
+
+  hr
+
+  form(action="/course/new/submit" method="POST")
+    label Com Code
+      p Com Code is mentioned in the firt column in the time-table.
+      input.inp(name="com_code" placeholder="1001")
+
+    label Course Code
+       input.inp(name="couse_code" placeholder="CHEM F312")
+
+    label Course Name
+       input.inp(name="course_name" placeholder="Engineering Graphics")
+
+    label Instructors
+      p Comma separated names of all instructors      
+       input.inp(name="instructors" placeholder="John Doe, Alice Singh, Prem Sharma")
+
+    hr
+
+    input.btn.bg(type="submit" value="Create course")
+
+
+

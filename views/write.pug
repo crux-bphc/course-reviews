@@ -17,7 +17,8 @@ block content
     form(action="/course/postReview" method="POST") 
         label
             <input type="checkbox" name="anonymous" value="anonymous"> Post anonymously
-        br
+        small
+            p When you tick this box, your name and picture associated with the review will not be visible to viewers.
         hr
         input(type="hidden" name="course_code" value=course.course_code)
         label Short Review Title*
@@ -31,8 +32,10 @@ block content
                 option(value="4") 4
                 option(value="5") 5
         label Overall Review*
+            div
+                small Make sure to mention relevant instructors in your review, as different instructors have different ways of teaching a course.
             textarea.inp(type="text"  name="general_feedback" required minlength="20" maxlength="500") 
-        label Grading Rating
+        label Grading Rating*
             img(src="/star-filled.png" width=16).middle
             select.inp(name="grading_score")
                 option(value="1") 1
@@ -42,7 +45,8 @@ block content
                 option(value="5") 5
         label Grading Review
         textarea.inp(type="text"  name="grading" maxlength="500") 
-        label Liteness Rating
+        label Liteness Rating*
+            img(src="/star-filled.png" width=16).middle
             select.inp(name="liteness_score")
                 option(value="1") 1
                 option(value="2") 2
@@ -50,13 +54,12 @@ block content
                 option(value="4") 4
                 option(value="5") 5
         label Liteness Review
-            img(src="/star-filled.png" width=16).middle
         textarea.inp(type="text"  name="liteness" maxlength="500") 
         label Suggestions ( One-liner )
         input.inp(type="text"  name="suggestions" maxlength="500")
         label
-            <input type="checkbox" name="recommend" value="recommend"> I would recommend this course
+            <input type="checkbox" name="recommend" value="recommend" checked> I would recommend this course
         br
         hr
-        input.btn(type="submit" value="Post Review")
+        input.btn(type="submit" value="Post Review").bg
 

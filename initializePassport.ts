@@ -1,5 +1,5 @@
 import passport from "passport";
-import express from "express";
+import express, { Request, Response } from "express";
 import { Strategy as GoogleStrategy } from "passport-google-oauth2";
 import { getUser, saveUser } from "./sql";
 import { User } from "./types";
@@ -53,11 +53,7 @@ function initializePassport() {
   );
 }
 
-export function auth(
-  req: express.Request,
-  res: express.Response,
-  next: express.NextFunction
-) {
+export function auth(req: Request, res: Response, next: any) {
   if (req.user === undefined) {
     console.log("Setting baseurl", req.originalUrl);
     req.session.redirect = req.originalUrl;

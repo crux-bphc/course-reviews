@@ -38,6 +38,14 @@ export async function saveUser(user: User) {
   );
 }
 
+export async function deleteCourse(course_code: string) {
+  const db = await getDB();
+  return await db.run(
+    "DELETE FROM courses WHERE course_code = ? ",
+    course_code
+  );
+}
+
 export async function getCourses(): Promise<[Course]> {
   const db = await getDB();
   return await db.all("SELECT * from courses");
@@ -78,6 +86,11 @@ export async function getFeedback(course_code: string): Promise<[Feedback]> {
     "SELECT * FROM feedbacks WHERE course_code = ? ORDER BY (upvotes-downvotes) DESC",
     course_code
   );
+}
+
+export async function deleteFeedback(id: number) {
+  const db = await getDB();
+  await db.run("DELETE FROM feedbacks WHERE id = ?", id);
 }
 
 export async function saveAttachment(attachment: Without<Attachment, "id">) {

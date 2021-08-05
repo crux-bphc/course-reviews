@@ -92,6 +92,10 @@ router.post("/postReview", auth, async function (req, res) {
   );
 });
 
+router.get("/new", auth, async function (req, res) {
+  return res.render("request-course", { user: req.user });
+});
+
 router.get("/upvote", auth, async function (req, res, next) {
   const feedbackId = parseInt(req.query.feedbackId as string);
   if (feedbackId === undefined) {

@@ -44,3 +44,11 @@ export type Course = {
 };
 
 export type Without<T, K> = Pick<T, Exclude<keyof T, K>>;
+
+declare global {
+  namespace Express {
+    interface Request {
+      user?: User;
+    }
+  }
+}

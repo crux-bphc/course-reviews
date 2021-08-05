@@ -1,5 +1,7 @@
 nav
     h3 BPHC Course Reviews
+        if user
+            small.username.float-right=user.name
     a(href="/") Home
     a(href="/courses") Search
     if !user

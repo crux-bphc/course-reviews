@@ -17,6 +17,32 @@ body {
   margin: 0px !important;
 }
 
+.bg {
+  font-size: 125%;
+}
+
+.recPill img {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin-right: 2px;
+}
+
+.recPill {
+  padding: 4px 10px;
+  border-radius: 50px;
+  background-color: rgb(207, 240, 212);
+}
+
+.notRecommended {
+  background-color: rgb(251, 206, 206);
+}
+
+.username {
+  font-weight: normal;
+  margin: 0px;
+}
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -37,7 +63,7 @@ li.trans:hover {
 
 .inp {
   display: block;
-  width: 300px;
+  width: 100%;
   max-width: 100%;
   margin-bottom: 15px;
   border: 1px solid lightgray;
@@ -45,7 +71,7 @@ li.trans:hover {
 }
 
 textarea.inp {
-  width: 300px;
+  width: 100%;
   height: 200px;
   resize: vertical;
   max-height: 500px;
@@ -362,5 +388,10 @@ h1.course-page-title img {
     width: 900px;
     margin: 50px auto;
     padding: 10px;
+  }
+
+  .inp,
+  textarea.inp {
+    width: 300px;
   }
 }

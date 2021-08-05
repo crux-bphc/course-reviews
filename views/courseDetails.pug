@@ -9,7 +9,7 @@ block content
   h1.course-page-title
     img(src="/book.png", alt="book")
     =course.course_name
-  h4!="Course reviews and materials for " + course.course_name + " " + course.course_code + ". This time, offered by " + course.instructors || "unknown team members."
+  h4!="Course reviews and materials for " + course.course_code + " " + course.course_name + ". This time, offered by " + course.instructors || "unknown team members."
   p You can write a review, or attach materials like handouts and other relevant files. 
     a(onclick="share()" href="javascript:void()") Share this page
   hr
