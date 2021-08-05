@@ -38,11 +38,7 @@ function initializePassport() {
           return cb(null, undefined, { message: "Invalid email" });
         }
 
-        if (
-          !user.email.startsWith("f20") &&
-          !user.email.startsWith("p20") &&
-          !user.email.startsWith("h20")
-        ) {
+        if (!user.email.startsWith("f20") && !user.email.startsWith("h20")) {
           console.warn("Not a student");
           return cb(null, undefined, { message: "Not a student." });
         }
