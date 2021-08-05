@@ -1,5 +1,5 @@
 import createError from "http-errors";
-import express from "express";
+import express, { NextFunction, Request, Response } from "express";
 import path from "path";
 import session from "express-session";
 import cookieParser from "cookie-parser";
@@ -8,6 +8,7 @@ import logger from "morgan";
 import initializePassport from "./initializePassport";
 
 import indexRouter from "./routes/index";
+import adminRouter from "./routes/admin";
 import courseRouter from "./routes/course";
 import usersRouter from "./routes/users";
 import passport from "passport";
@@ -53,6 +54,8 @@ app.get(
     scope: ["email", "profile"],
   })
 );
+
+app.use("/admin", enforceAdmin, adminRouter);
 
 app.get("/policy", function (req, res) {
   res.render("policy");
@@ -101,5 +104,14 @@ app.use(function (
   res.status(err.status || 500);
   res.render("error");
 });
+
+function enforceAdmin(req: Request, res: Response, next: NextFunction) {
+  //@ts-ignore
+  if (req.user?.admin) {
+    return next();
+  }
+
+  res.end("You must be an admin.");
+}
 
 module.exports = app;

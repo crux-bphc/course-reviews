@@ -41,7 +41,7 @@ export async function saveUser(user: User) {
 export async function deleteCourse(course_code: string) {
   const db = await getDB();
   return await db.run(
-    "DELETE FROM courses WHERE course_code = ? ",
+    "PRAGMA foreign_keys = 0; DELETE FROM courses WHERE course_code = ?",
     course_code
   );
 }
@@ -49,6 +49,17 @@ export async function deleteCourse(course_code: string) {
 export async function getCourses(): Promise<[Course]> {
   const db = await getDB();
   return await db.all("SELECT * from courses");
+}
+
+export async function createCourse(course: Without<Course, "id">) {
+  console.log(course);
+  const db = await getDB();
+  return await db.run(
+    `INSERT INTO "main"."courses"
+  ("com_code", "course_code", "course_name", "instructors", "hits")
+  VALUES (?, ?, ?, ?, ?)`,
+    Object.values(course)
+  );
 }
 
 export async function upvote(feedbackId: number) {

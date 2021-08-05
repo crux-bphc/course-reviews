@@ -1,4 +1,8 @@
-import { Course, Without } from "./types";
+//////////////////////////////////////////////
+// Run this script to convert raw timetable CSV to simple, importable CSV that you can import to SQL database.
+//////////////////////////////////////////////
+
+import { Course, Without } from "../types";
 import fs from "fs";
 import readline from "readline";
 
@@ -7,7 +11,7 @@ let com_code = 0;
 let arr: [string] = [""];
 
 async function processLineByLine() {
-  const fileStream = fs.createReadStream("timetable.csv");
+  const fileStream = fs.createReadStream("/timetable.csv");
 
   const rl = readline.createInterface({
     input: fileStream,
@@ -25,7 +29,7 @@ async function processLineByLine() {
         com_code: parseInt(row[1].trim()),
         course_code: row[2].trim(),
         course_name: row[4].trim(),
-        instructors: "",
+        instructors: " ",
         hits: 0,
       });
     }
@@ -36,11 +40,7 @@ async function processLineByLine() {
       if (
         !instructors.toLocaleLowerCase().includes(newInstructor.toLowerCase())
       ) {
-        if (instructors == "") {
-          instructors = newInstructor;
-        } else {
-          instructors += ", " + row[15].trim();
-        }
+        instructors += ", " + row[15].trim();
         courses.set(com_code, {
           ...currCourse,
           instructors,

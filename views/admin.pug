@@ -1,0 +1,30 @@
+extends layout
+block title
+    title Admin Console - BPHC Course Reviews
+block content
+    h1 Admin Console
+    details
+        summary Create Course
+        form(action="/admin/createCourse" method="POST")
+            fieldset
+                label Com Code
+                    input.inp(name="com_code" placeholder="1001" required type="number")
+                label Course Code
+                    input.inp(name="course_code" placeholder="BIO F324" required)
+                label Course Name
+                    input.inp(name="course_name" placeholder="Engineering Graphics" required)
+                label Instructors
+                    input.inp(name="instructors" placeholder="John Doe, Bob Sharma, Jane Singh" required)
+
+                input.btn(type="submit" value="Create course")
+
+    hr
+
+    details
+        summary Delete Course
+        form(action="/admin/deleteCourse" method="POST")
+            fieldset
+                label Course Code
+                    input.inp(name="course_code" placeholder="BIO F324" required)
+
+                input.btn(type="submit" value="Delete course")

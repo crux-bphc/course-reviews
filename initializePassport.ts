@@ -26,7 +26,11 @@ function initializePassport() {
           google_id: profile._json.sub,
           name: profile._json.name,
           photo: profile._json.picture,
-          admin: 0,
+          admin: (process.env.ADMIN_USERS as string).includes(
+            profile._json.email
+          )
+            ? 1
+            : 0,
         };
 
         if ((await getUser(user.email)) === undefined) {

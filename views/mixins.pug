@@ -28,6 +28,11 @@ mixin renderedReview(review)
                             |Course not recommended
                     h2.reviewTitle
                         =review.review_title
+                    if user.admin
+                        form(action="/admin/deleteReview" method="POST")
+                            input(type="hidden" name="id" value=review.id)
+                            input.btn(type="submit" value="(Admin) Delete Review")
+                            hr
                     .profile
                         +stars(review.general_feedback_score)
                         if !review.anonymous
