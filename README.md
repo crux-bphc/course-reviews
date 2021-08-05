@@ -1,17 +1,23 @@
 # BPHC Course Reviews
 
-# Configure Production Secrets
+The application is a simple Express.JS app. Database is MySQL. Auth is provided by Passport.js
+
+# Production Deployment
+
+Assuming the app is deployed at `/home/ubuntu/cfb`
+
+## Configure Production Secrets
 
 Create a file `launcher.sh` (chmod+x) in project root with contents as follows:
 
 ```sh
 #!/bin/bash
-export NODE_ENV=production
+export NODE_ENV=production # Comment this line to enable dev-mode.
 export GOOGLE_CLIENT_ID="<replace>"
 export GOOGLE_CLIENT_SECRET="<replace>"
 export LOGIN_CALLBACK="https://reviews.bphc.xyz/auth/google/callback" # Replace with actual callback URL.
 export PORT=3000
-export ADMIN_USERS="[A@B.com,C@D.com,user@domain.com]"
+export ADMIN_USERS="[user@domain.com,john@gmail.com]" # List of admin emails, comma separated
 
 echo "Node.js App starting in " $(pwd)
 ./bin/www
@@ -19,9 +25,9 @@ echo "Node.js App starting in " $(pwd)
 
 This will be used to launch the application in production.
 
-# Systemd Service for Express Application
+## Systemd Service for Express Application
 
-Assuming the user the service runs as is named `ubuntu`.
+Assuming the user the service runs as is named `ubuntu`, create the following service file:
 
 ```
 [Unit]
@@ -40,7 +46,7 @@ Restart=on-failure
 WantedBy=multi-user.target
 ```
 
-# Configure NGINX Reverse Proxy ( systemd )
+## Configure NGINX Reverse Proxy ( systemd )
 
 Create a file `bphc-reviews-proxy.conf` in `/etc/nginx/conf.d`.
 
