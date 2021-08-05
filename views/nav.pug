@@ -8,8 +8,7 @@ nav
         a.float-right(href="/auth/google") Login
     if user
         a.float-right(href="/auth/google/logout") Logout
-
-    if user.admin
+    if user && user.admin
         a.float-right(href="/admin") Admin
     .clearfix
      

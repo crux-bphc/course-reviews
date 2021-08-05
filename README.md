@@ -11,6 +11,8 @@ export GOOGLE_CLIENT_ID="<replace>"
 export GOOGLE_CLIENT_SECRET="<replace>"
 export LOGIN_CALLBACK="https://reviews.bphc.xyz/auth/google/callback" # Replace with actual callback URL.
 export PORT=3000
+export ADMIN_USERS="[A@B.com,C@D.com,user@domain.com]"
+
 echo "Node.js App starting in " $(pwd)
 ./bin/www
 ```

@@ -40,9 +40,8 @@ export async function saveUser(user: User) {
 
 export async function deleteCourse(course_code: string) {
   const db = await getDB();
-  return await db.run(
-    "PRAGMA foreign_keys = 0; DELETE FROM courses WHERE course_code = ?",
-    course_code
+  return await db.exec(
+    `PRAGMA foreign_keys = 0; DELETE FROM courses WHERE course_code = "${course_code}"`
   );
 }
 
@@ -155,4 +154,20 @@ export async function getStats() {
     numAttachments: result[3]["COUNT(*)"],
     totalHits: result[4]["SUM(hits)"],
   };
+}
+
+// Run raw sql query. Unsafe AF.
+export async function runStatement(statement: string, withResult: boolean) {
+  const db = await getDB();
+  try {
+    if (withResult) {
+      const result = await db.all(statement);
+      return result;
+    } else {
+      const result = await db.exec(statement);
+      return result;
+    }
+  } catch (err) {
+    return JSON.stringify(err);
+  }
 }

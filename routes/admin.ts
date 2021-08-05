@@ -2,7 +2,13 @@ import express from "express";
 import { name } from "faker";
 import { generateFrontendCourseListFile } from "../datagen";
 import { auth } from "../initializePassport";
-import { createCourse, deleteCourse, deleteFeedback, getStats } from "../sql";
+import {
+  createCourse,
+  deleteCourse,
+  deleteFeedback,
+  getStats,
+  runStatement,
+} from "../sql";
 var router = express.Router();
 
 router.get("/", (req, res) => {
@@ -38,9 +44,16 @@ router.post("/deleteCourse", async (req, res) => {
     return res.end("Invalid course_code.");
   }
 
+  console.log(req.body.course_code);
+
   await deleteCourse(req.body.course_code);
   generateFrontendCourseListFile();
   res.end("Course deleted.");
+});
+
+router.post("/runSQL", async (req, res) => {
+  const result = await runStatement(req.body.statement, req.body.withResult);
+  res.end(JSON.stringify(result, undefined, 2));
 });
 
 export default router;

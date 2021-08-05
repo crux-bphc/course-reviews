@@ -11,7 +11,7 @@ CREATE TABLE "courses" (
 	"com_code"	INTEGER NOT NULL,
 	"course_code"	TEXT NOT NULL,
 	"course_name"	TEXT NOT NULL,
-	"instructors"	TEXT,
+	"instructors"	TEXT NOT NULL DEFAULT "None",
 	PRIMARY KEY("course_code")
 );
 
@@ -31,8 +31,8 @@ CREATE TABLE "feedbacks" (
 	"suggestions"	TEXT NOT NULL,
 	"upvotes"	INTEGER NOT NULL DEFAULT 0,
 	"downvotes"	INTEGER NOT NULL DEFAULT 0,
-	"review_title"	TEXT,
-	"photo"	TEXT,
+	"review_title"	TEXT NOT NULL,
+	"photo"	TEXT NOT NULL,
 	"timestamp"	INTEGER DEFAULT 0
 );
 

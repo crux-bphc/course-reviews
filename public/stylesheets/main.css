@@ -250,6 +250,40 @@ h2.reviewTitle img {
   height: 20px;
 }
 
+.sqlShell {
+  width: 100%;
+  display: block;
+  min-height: 300px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.sqlResults {
+  border: 1px solid black;
+  max-height: 500px;
+  overflow-y: scroll;
+  padding: 5px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.string {
+  color: green;
+}
+.number {
+  color: darkorange;
+}
+.boolean {
+  color: blue;
+}
+.null {
+  color: magenta;
+}
+.key {
+  color: red;
+}
+
 .course-name {
   color: black;
   text-decoration: none;

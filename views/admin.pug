@@ -28,3 +28,18 @@ block content
                     input.inp(name="course_code" placeholder="BIO F324" required)
 
                 input.btn(type="submit" value="Delete course")
+
+    hr
+
+    h2 SQL Shell
+
+    textarea(name="statement" placeholder="SELECT * FROM feedbacks;" id="statement").sqlShell
+    h4 Results:
+    pre.sqlResults#sqlResults No results yet
+    hr
+    button.btn(onclick="runSql(true)") Execute
+    hr
+    b Note:
+    span If you have multiple statements, no results will be displayed, but all statements will execute. To show results, run one statement at a time.
+
+    script(src="/javascripts/sqlRunner.js") 
