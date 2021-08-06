@@ -66,3 +66,7 @@ server {
 ```
 
 Then, run `systemctl daemon-reload` and then `systemctl enable nginx` and then `systemctl start nginx` ( as root ).
+
+# License
+
+This software is licensed under GNU Affero General Public License v3.0 or later.
