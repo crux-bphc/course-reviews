@@ -6,7 +6,7 @@ The application is a simple Express.JS app. Database is SQLite3. Auth is provide
 
 Assuming the app is deployed at `/home/ubuntu/cfb`
 
-## Configure Production Secrets
+## Configure Launcher and Production Secrets
 
 Create a file `launcher.sh` (chmod+x) in project root with contents as follows:
 
@@ -23,7 +23,7 @@ echo "Node.js App starting in " $(pwd)
 ./bin/www
 ```
 
-This will be used to launch the application in production.
+This will be used to launch the application in development, as well as production.
 
 ## Systemd Service for Express Application
 
