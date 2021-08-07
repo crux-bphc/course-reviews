@@ -1,6 +1,6 @@
 # BPHC Course Reviews
 
-The application is a simple Express.JS app. Database is MySQL. Auth is provided by Passport.js
+The application is a simple Express.JS app. Database is SQLite3. Auth is provided by Passport.js
 
 # Production Deployment
 
