@@ -8,7 +8,8 @@ export async function generateFrontendCourseListFile() {
   console.log("Fetching from DB");
   const courses = await getCourses();
   console.log("Making string");
-  const dataStr = "const courses = " + JSON.stringify(courses) + ";";
+  const dataStr =
+    "const courses = JSON.parse(`" + JSON.stringify(courses) + "` );";
   console.log("Writing file");
   writeFileSync(
     path.join(__dirname, "../public/javascripts/generated-courses-list.js"),
@@ -17,4 +18,6 @@ export async function generateFrontendCourseListFile() {
   console.log("Done");
 }
 
-// run()
+if (require.main === module) {
+  generateFrontendCourseListFile();
+}
