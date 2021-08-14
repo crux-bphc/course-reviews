@@ -34,7 +34,7 @@ block content
         label Overall Review*
             div
                 small Make sure to mention relevant instructors in your review, as different instructors have different ways of teaching a course.
-            textarea.inp(type="text"  name="general_feedback" required minlength="20" maxlength="500") 
+            textarea.inp(type="text"  name="general_feedback" required minlength="20" maxlength="1500") 
         label Grading Rating*
             img(src="/star-filled.png" width=16).middle
             select.inp(name="grading_score")
@@ -44,7 +44,7 @@ block content
                 option(value="4") 4
                 option(value="5") 5
         label Grading Review
-        textarea.inp(type="text"  name="grading" maxlength="500") 
+        textarea.inp(type="text"  name="grading" maxlength="1000") 
         label Liteness Rating*
             img(src="/star-filled.png" width=16).middle
             select.inp(name="liteness_score")
@@ -54,9 +54,9 @@ block content
                 option(value="4") 4
                 option(value="5") 5
         label Liteness Review
-        textarea.inp(type="text"  name="liteness" maxlength="500") 
+        textarea.inp(type="text"  name="liteness" maxlength="1000") 
         label Suggestions ( One-liner )
-        input.inp(type="text"  name="suggestions" maxlength="500")
+        input.inp(type="text"  name="suggestions" maxlength="1000")
         label
             <input type="checkbox" name="recommend" value="recommend" checked> I would recommend this course
         br
