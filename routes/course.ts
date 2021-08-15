@@ -4,7 +4,6 @@ import {
   downvote,
   getAttachment,
   getCourse,
-  getCourses,
   getFeedback,
   getLast10Feedbacks,
   increaseHitsCourse,

@@ -1,3 +1,7 @@
+/**
+ *
+ * @param {boolean} withResult
+ */
 async function runSql(withResult) {
   try {
     const result = await fetch("/admin/runSQL", {
@@ -18,6 +22,9 @@ async function runSql(withResult) {
   }
 }
 
+/**
+ * @param {string} jsonString
+ */
 function syntaxHighlight(jsonString) {
   const json = jsonString
     .replace(/&/g, "&amp;")
