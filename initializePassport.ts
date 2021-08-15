@@ -60,6 +60,19 @@ function initializePassport() {
 }
 
 export function auth(req: Request, res: Response, next: any) {
+  if (req.get("User-Agent")?.toLowerCase().includes("facebook")) {
+    return res.end(
+      `
+      <!DOCTYPE html>
+      <html lang="en"><head>
+      <meta charset="UTF-8">
+      <link rel="icon" href="/favicon.ico">
+      <title>BPHC Course Reviews -  Share reviews and Handouts</title>
+      </head></html>
+      `
+    );
+  }
+
   if (req.user === undefined) {
     console.log("Setting baseurl", req.originalUrl);
     req.session.redirect = req.originalUrl;
