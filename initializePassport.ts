@@ -66,8 +66,10 @@ export function auth(req: Request, res: Response, next: any) {
       <!DOCTYPE html>
       <html lang="en"><head>
       <meta charset="UTF-8">
-      <link rel="icon" href="/favicon.ico">
       <title>BPHC Course Reviews -  Share reviews and Handouts</title>
+      <meta property="og:title" content="BPHC Course Reviews -  Share Reviews and Handouts" />
+      <meta property="og:description" content="Easily find and share your experiences, and find courses you'll enjoy." />
+      <link rel="icon" href="/favicon.ico">
       </head></html>
       `
     );
