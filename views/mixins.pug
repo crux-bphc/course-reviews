@@ -35,9 +35,11 @@ mixin renderedReview(review)
                             hr
                     .profile
                         +stars(review.general_feedback_score)
-                        if !review.anonymous
+                        if !review.anonymous || user.admin
                             img(src=review.photo, alt="Profile Picture").pic
                             span.tiny By 
+                                if review.anonymous
+                                    span ( Anonymous ) 
                                 span=review.name
                     p=review.general_feedback||"The reviewer did not leave any general feedback."
                     h4 Grading &nbsp;
