@@ -23,10 +23,15 @@ app.set("view engine", "pug");
 app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
+app.set("trust proxy", 1); // trust first proxy
 app.use(
   session({
     secret: "keyboard cat",
     resave: true,
+    cookie: {
+      maxAge: 30 * 24 * 60 * 60 * 1000,
+      // secure: true,
+    },
     saveUninitialized: true,
   })
 );

@@ -43,6 +43,14 @@ body {
   margin: 0px;
 }
 
+.username img {
+  width: 32px;
+  border-radius: 32px;
+  margin-right: 5px;
+  border: 1px solid rgb(211, 211, 211);
+  height: 32px;
+}
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
