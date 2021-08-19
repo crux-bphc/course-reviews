@@ -157,15 +157,19 @@ hr {
   padding-bottom: 25px;
 }
 
-ul.results {
+/* #results {
   list-style-type: none;
   padding: 0px;
-}
+} */
 
-ul.results li {
+.resultItem {
   padding: 10px 0px;
   margin-bottom: 5px;
   border-bottom: 1px solid lightgray;
+}
+
+.hidden {
+  display: none;
 }
 
 .text-center {

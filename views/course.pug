@@ -9,8 +9,8 @@ block content
       img(src="/search.png", alt="mag glass")
   hr
   div#results
-    .text-center
-      h3 Search courses by name, code or instructor.
-      p Then you can view or add reviews and attachments.
-      .btn(onclick="doSearch()") Show all
+  div
+    #notFound.hidden
+      b No matching courses found.
+      p If you wish for a course to be added, please contact the site administrator by clicking the link in the footer below.
   script(src="javascripts/course-search.js") 
