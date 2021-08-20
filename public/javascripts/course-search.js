@@ -23,7 +23,7 @@ function initialRender() {
     elem.innerHTML = `<a  href="/courses/${
       spaceToScore(item.course_code) + "/" + spaceToScore(item.course_name)
     }" ><div class="row"><div class="col-9 course-name">
-      <img src="/book.png" class="middle" width=32 alt="book icon"/>
+      <img src="/book.png" class="middle" width=32 height=32 alt="book icon"/>
     ${item.course_code} &nbsp;<b>${
       item.course_name
     }</b><br/><small class="ins">${

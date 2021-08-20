@@ -34,8 +34,8 @@ block content
     h2.text-center.noReview No reviews yet. You can add yours, or ask someone to add a review by sharing the link to this page.
       br
       br
-      a(onclick="share()" href="javascript:void()").btn Share this page
       a.btn(href="/course/review/"+course.course_code.replace(" ","_")+"/"+course.course_name.replace(" ","_")) Write a review
+      a(onclick="share()" href="javascript:void()").btn Share this page
 
   else
     ul.reviewList

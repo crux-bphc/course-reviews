@@ -89,12 +89,11 @@ textarea.inp {
 .btn {
   padding: 5px 20px;
   display: inline-block;
-  margin-bottom: 2px;
   background: rgb(66, 66, 66);
   color: white;
   border: none;
   cursor: pointer;
-  margin: 0px 5px;
+  margin: 2px 5px;
   text-decoration: none;
 }
 
@@ -164,8 +163,11 @@ hr {
 
 .resultItem {
   padding: 10px 0px;
-  margin-bottom: 5px;
   border-bottom: 1px solid lightgray;
+}
+
+.resultItem:hover {
+  background-color: rgb(220, 242, 252);
 }
 
 .hidden {
@@ -176,13 +178,20 @@ hr {
   text-align: center;
 }
 
-nav a {
+nav a,
+.btn.primary {
   display: inline-block;
   padding: 8px 10px;
   background: var(--primary);
   color: black;
   text-decoration: none;
   margin-right: 5px;
+}
+
+nav a:hover,
+.btn.primary:hover {
+  background-color: rgb(53, 53, 53);
+  color: white;
 }
 
 #results table,
