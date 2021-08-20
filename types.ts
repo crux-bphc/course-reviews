@@ -4,6 +4,7 @@ export type User = {
   name: string;
   photo: string;
   admin: number;
+  num_reviews: number;
 };
 
 export type Feedback = {

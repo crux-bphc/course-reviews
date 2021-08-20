@@ -68,6 +68,14 @@ export async function upvote(feedbackId: number) {
   ]);
 }
 
+export async function incrementReviewCount(email: string) {
+  const db = await getDB();
+  await db.run(
+    "UPDATE users SET num_reviews = num_reviews + 1 WHERE email = ?",
+    email
+  );
+}
+
 export async function downvote(feedbackId: number) {
   const db = await getDB();
   await db.run("UPDATE feedbacks SET downvotes = downvotes + 1 WHERE id = ?", [

@@ -314,6 +314,18 @@ h2.reviewTitle img {
   display: none;
 }
 
+.contribAlert {
+  padding: 10px 30px;
+  width: 100%;
+  margin-top: 50px;
+  background-color: rgb(245, 244, 244);
+  border: 2px solid rgb(190, 190, 190);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+}
+
 .stars img {
   width: 20px;
   height: 20px;
@@ -339,6 +351,14 @@ h1 img {
 .review {
   border-bottom: 1px solid rgb(170, 170, 170);
   margin-bottom: 20px;
+  position: relative;
+}
+
+.noContribution {
+  filter: blur(4px);
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 .vote {

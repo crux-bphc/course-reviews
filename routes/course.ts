@@ -7,6 +7,7 @@ import {
   getFeedback,
   getLast10Feedbacks,
   increaseHitsCourse,
+  incrementReviewCount,
   saveAttachment,
   saveFeedback,
   upvote,
@@ -83,6 +84,9 @@ router.post("/postReview", auth, async function (req, res) {
 
   const courseDetails = (await getCourse(feedback.course_code)) as Course;
   await saveFeedback(feedback);
+  incrementReviewCount(feedback.email);
+  // @ts-ignore;
+  req.user.num_reviews++;
 
   res.redirect(
     `/courses/${spaceToScore(feedback.course_code)}/${spaceToScore(

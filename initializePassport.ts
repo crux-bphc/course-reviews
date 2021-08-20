@@ -21,21 +21,28 @@ function initializePassport() {
         callbackURL: process.env.LOGIN_CALLBACK as string,
       },
       async function (_accessToken, _refreshToken, profile, cb) {
-        const user: User = {
+        let user: User = {
           email: profile._json.email,
           google_id: profile._json.sub,
           name: profile._json.name,
           photo: profile._json.picture,
-          admin: (process.env.ADMIN_USERS as string).includes(
-            profile._json.email
-          )
-            ? 1
-            : 0,
+          admin: 0,
+          num_reviews: 0,
         };
 
-        if ((await getUser(user.email)) === undefined) {
+        const savedUser = await getUser(user.email);
+
+        if (savedUser === undefined) {
           await saveUser(user);
+        } else {
+          user = savedUser;
         }
+
+        user.admin = (process.env.ADMIN_USERS as string).includes(
+          profile._json.email
+        )
+          ? 1
+          : 0;
 
         if (!user.admin) {
           if (!user.email.endsWith("bits-pilani.ac.in")) {
