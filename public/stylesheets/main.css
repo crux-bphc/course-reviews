@@ -314,6 +314,11 @@ h2.reviewTitle img {
   display: none;
 }
 
+.firstTimeReview {
+  background-color: rgb(252, 238, 238);
+  padding: 10px 20px;
+}
+
 .contribAlert {
   padding: 10px 30px;
   width: 100%;

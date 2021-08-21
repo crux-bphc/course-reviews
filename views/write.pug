@@ -10,6 +10,15 @@ block content
         =course.course_name 
     b Offered by &nbsp;
         span=course.instructors 
+
+    if(user.num_reviews==0)
+        .firstTimeReview
+            h1 First review?
+            p
+                b Intentional low quality 
+                | reviews to abuse the system will result in your account being 
+                b banned.
+        
     p Thank you for taking the time to review the course. Please, write in detail and provide accurate information. Fields marked with * are required.
     h4
         img(src="/star-filled.png" width=16).middle
