@@ -11,7 +11,7 @@ mixin stars(number)
 mixin renderedReview(review)
 
     li.review(class=(review.upvotes-review.downvotes)<0?"trans":"full")
-        if(user && user.num_reviews==0)
+        if(user && user.num_reviews==0 && !user.admin)
             .contribAlert
                 h1 Please write a review to view.
                 p
@@ -19,7 +19,7 @@ mixin renderedReview(review)
                 | Once you submit a review, you can use the website fully. Click "view courses" to see courses that you can review.
                 hr
                 a.btn(href="/courses") View courses
-        .row(class=(user && user.num_reviews==0)?"noContribution":"")
+        .row(class=(user && user.num_reviews==0 && !user.admin)?"noContribution":"")
             .col-1.text-center.votebox
                 img(src="/upvote.png" onclick='upvote("'+review.id+'")' title="Upvote" alt="Upvote").vote
                 h4(id="votes-"+review.id)=(review.upvotes-review.downvotes)*10
