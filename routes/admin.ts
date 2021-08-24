@@ -4,8 +4,11 @@ import { generateFrontendCourseListFile } from "../datagen";
 import { auth } from "../initializePassport";
 import {
   createCourse,
+  decrementReviewCount,
   deleteCourse,
   deleteFeedback,
+  getFeedback,
+  getFeedbackById,
   getStats,
   runStatement,
 } from "../sql";
@@ -15,13 +18,19 @@ router.get("/", (req, res) => {
   return res.render("admin", { user: req.user });
 });
 
-router.post("/deleteReview", (req, res) => {
+router.post("/deleteReview", async (req, res) => {
   const id = req.body.id;
+  const feedback = await getFeedbackById(id);
 
   if (!id) {
     return res.end("Invalid course id.");
   }
 
+  if (!feedback) {
+    return res.end("No such review");
+  }
+
+  decrementReviewCount(feedback.email);
   deleteFeedback(id);
   return res.end("Review deleted.");
 });

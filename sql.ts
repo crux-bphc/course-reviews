@@ -76,6 +76,14 @@ export async function incrementReviewCount(email: string) {
   );
 }
 
+export async function decrementReviewCount(email: string) {
+  const db = await getDB();
+  await db.run(
+    "UPDATE users SET num_reviews = num_reviews - 1 WHERE email = ?",
+    email
+  );
+}
+
 export async function downvote(feedbackId: number) {
   const db = await getDB();
   await db.run("UPDATE feedbacks SET downvotes = downvotes + 1 WHERE id = ?", [
@@ -104,6 +112,13 @@ export async function getFeedback(course_code: string): Promise<[Feedback]> {
     "SELECT * FROM feedbacks WHERE course_code = ? ORDER BY (upvotes-downvotes) DESC",
     course_code
   );
+}
+
+export async function getFeedbackById(
+  id: number
+): Promise<Feedback | undefined> {
+  const db = await getDB();
+  return await db.get("SELECT * FROM feedbacks WHERE id = ?", id);
 }
 
 export async function deleteFeedback(id: number) {
