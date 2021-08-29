@@ -3,6 +3,7 @@ import { name } from "faker";
 import { generateFrontendCourseListFile } from "../datagen";
 import { auth } from "../initializePassport";
 import {
+  banUser,
   createCourse,
   decrementReviewCount,
   deleteCourse,
@@ -11,6 +12,7 @@ import {
   getFeedbackById,
   getStats,
   runStatement,
+  unBanUser,
 } from "../sql";
 var router = express.Router();
 
@@ -58,6 +60,16 @@ router.post("/deleteCourse", async (req, res) => {
   await deleteCourse(req.body.course_code);
   generateFrontendCourseListFile();
   res.end("Course deleted.");
+});
+
+router.post("/banUser", async (req, res) => {
+  banUser(req.body.email);
+  res.end("User banned");
+});
+
+router.post("/unBanUser", async (req, res) => {
+  unBanUser(req.body.email);
+  res.end("User un-banned");
 });
 
 router.post("/runSQL", async (req, res) => {

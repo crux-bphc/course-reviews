@@ -31,6 +31,28 @@ block content
 
     hr
 
+    details
+        summary Ban User
+        form(action="/admin/banUser" method="POST")
+            fieldset
+                label Email
+                    input.inp(name="email"  required)
+
+                input.btn(type="submit" value="Ban User")
+
+    hr
+
+    details
+        summary Un-ban User
+        form(action="/admin/unBanUser" method="POST")
+            fieldset
+                label Email
+                    input.inp(name="email"  required)
+
+                input.btn(type="submit" value="Un-ban User")
+
+    hr
+
     h2 SQL Shell
 
     textarea(name="statement" placeholder="SELECT * FROM feedbacks;" id="statement").sqlShell

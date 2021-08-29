@@ -33,9 +33,19 @@ export async function getUser(email: string): Promise<User | undefined> {
 export async function saveUser(user: User) {
   const db = await getDB();
   await db.run(
-    "INSERT INTO users (email, google_id, name, photo, admin) VALUES (?, ?, ?, ?, ?)",
+    "INSERT INTO users (email, google_id, name, photo, admin, num_reviews, banned) VALUES (?, ?, ?, ?, ?, ?, ?)",
     Object.values(user)
   );
+}
+
+export async function banUser(email: string) {
+  const db = await getDB();
+  await db.run("UPDATE USERS SET banned=1 WHERE email = ?", email);
+}
+
+export async function unBanUser(email: string) {
+  const db = await getDB();
+  await db.run("UPDATE USERS SET banned=0 WHERE email = ?", email);
 }
 
 export async function deleteCourse(course_code: string) {

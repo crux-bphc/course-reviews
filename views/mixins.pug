@@ -38,6 +38,8 @@ mixin renderedReview(review)
                     h2.reviewTitle
                         =review.review_title
                     if user.admin
+                        p Email: 
+                            span=review.email
                         form(action="/admin/deleteReview" method="POST")
                             input(type="hidden" name="id" value=review.id)
                             input.btn(type="submit" value="(Admin) Delete Review")

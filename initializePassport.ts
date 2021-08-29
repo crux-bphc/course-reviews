@@ -28,6 +28,7 @@ function initializePassport() {
           photo: profile._json.picture,
           admin: 0,
           num_reviews: 0,
+          banned: 0,
         };
 
         const savedUser = await getUser(user.email);
@@ -58,6 +59,13 @@ function initializePassport() {
               message: "This website is mainly for students.",
             });
           }
+        }
+
+        if (user.banned === 1) {
+          console.log("Banned User", user);
+          return cb(null, undefined, {
+            message: "Your account has been banned.",
+          });
         }
 
         return cb(null, user);
