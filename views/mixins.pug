@@ -11,7 +11,7 @@ mixin stars(number)
 mixin renderedReview(review)
 
     li.review(class=(review.upvotes-review.downvotes)<0?"trans":"full")
-        if(user && user.num_reviews==0 && !user.admin)
+        if(user && user.num_reviews==0 && !user.admin && !user.email.includes("2021"))
             .contribAlert
                 h1 Please write a review to view.
                 p
