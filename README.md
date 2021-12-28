@@ -27,7 +27,7 @@ This will be used to launch the application in development, as well as productio
 
 ## Systemd Service for Express Application
 
-Assuming the user the service runs as is named `ubuntu`, create the following service file:
+Assuming the user the service runs as is named `ubuntu`, create the following service file and save it as `/lib/systemd/system/bphc-course-reviews.service`:
 
 ```
 [Unit]
