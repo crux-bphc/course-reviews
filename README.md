@@ -48,7 +48,7 @@ WantedBy=multi-user.target
 
 ## Configure NGINX Reverse Proxy ( systemd )
 
-Create a file `bphc-reviews-proxy.conf` in `/etc/nginx/conf.d`.
+First, install NGINX using `sudo apt install nginx`. Create a file `bphc-reviews-proxy.conf` in `/etc/nginx/conf.d`.
 
 In it, write:
 
