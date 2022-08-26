@@ -1,0 +1,364 @@
+com_code,course_code,course_name,instructors,hits
+1423,"BIO F215","BIOPHYSICS","DEBASHREE B,Syeda Sabiha Sultana Lubna",0
+1424,"BIO F241","ECOLOGY & ENVIRONMENTAL SCIENCE","P SANKAR GANESH,Anand N",0
+1430,"BIO F242","INTRODUCTION TO BIOINFORMATICS","SHUVADEEP MAITY,K.Vaishali",0
+1425,"BIO F243","GENETICS","NAGA MOHAN K,Anne Lohitha Alias Anuhya",0
+1426,"BIO F244","INSTRU METHODS OF ANAL","V Ramakrishna,K  PRANAV NARAYAN,Aishwarya Natarajan,Ali Akbar Shoukat Safdari,Devarakonda Himaja,Monica,Raunak Sharma,Sharayu Umakant Ghodesw,V Ramakrishna,Vidya Rajesh",0
+1651,"BIO F266","STUDY PROJECT","P SANKAR GANESH",0
+1431,"BIO F341","DEVELOPMENTAL BIOLOGY","VIVEK SHARMA,K  Pranav Narayan,Shraddha Tripathi",0
+1432,"BIO F342","IMMUNOLOGY","VIDYA RAJESH,Sushma S Kumar",0
+1650,"BIO F366","LABORATORY PROJECT","P SANKAR GANESH",0
+1736,"BIO F367","LABORATORY PROJECT","P SANKAR GANESH",0
+1685,"BIO F376","DESIGN PROJECT","DEBASHREE B",0
+1752,"BIO F377","DESIGN PROJECT","DEBASHREE B",0
+1436,"BIO F421","ENZYMOLOGY","TRINATH JAMMA,Jayati Ray Dutta",0
+1438,"BIO F451","BIOPROCESS TECHNOLOGY","KIRTIMAAN SYAL",0
+2009,"BIO G523","ADV & APPLIED MICROBIO","JAYATI RAY DUTTA,Ruchi Jain Dey,Naresh Patnaik,Pranay Amruth Maroju,Sakhare Kalyani Rajesh",0
+2015,"BIO G532","BIOSTATISTICS AND BIOMODELLING","V RAMAKRISHNA,Sridev Mohapatra,I Shivkumar,Nikhil P T,Vartika Singh",0
+151,"BIO G542","ADVANCED CELL AND MOLECULAR BIOLOGY","PIYUSH KHANDELIA,Dhansri Krishnamurthy,Mohammad Mehaboob Subh,Murali Krishna Ramgopal,Namita Pandey",0
+956,"BIO G643","PLANT BIOTECHNOLOGY","SRIDEV MOHAPATRA,Nikhil P T,Gargi Prasad S,Mude Hemanjali,Poosala Ramya Sri",0
+1372,"BIOT F346","GENOMICS","GIREESHA T MOHANNATH",0
+1377,"BIOT F422","NANOBIOTECHOLOGY","SUMAN KAPUR",0
+549,"BITS C790T","INDEPENDENT STUDY","V V KRISHNA VENUGANTI",0
+596,"BITS C791T","TEACHING PRACTICE I","V V KRISHNA VENUGANTI",0
+520,"BITS C797T","PHD SEMINAR","V V KRISHNA VENUGANTI",0
+553,"BITS C799T","PHD THESIS","V V KRISHNA VENUGANTI",0
+2128,"BITS E593","READING COURSE I","V V KRISHNA VENUGANTI",0
+2490,"BITS E594","READING COURSE II","V V KRISHNA VENUGANTI",0
+2101,"BITS E661","RESEARCH METHODOLOGY I","K SRINIVASA RAJU,Pragya Komal,Vijay Kumar Tadakamalla",0
+857,"BITS E793T","PRACTICE LECT SERIES I","V V KRISHNA VENUGANTI",0
+1862,"BITS F219","PROCESS ENGINEERING","SWATI BISWAS,Swati Biswas,Asif Mohd Itoo,Jagdish Chand,Kumbham Soniya,Srinivas Prasad K,Asif Mohd Itoo,Jagdish Chand,Kumbham Soniya,Swati Biswas",0
+1632,"BITS F225","ENVIRONMENTAL STUDIES","ANMALA JAGADEESH,D Purnima,Madhusmita Sahoo,Piyush Khandelia",0
+1334,"BITS F312","NEURAL NETWORKS AND FUZZY LOGIC","RAJESH KUMAR TRIPATHY,Shaswati Dash",0
+2277,"BITS F314","GAME THEORY AND ITS APPLICATIONS","DURGESH C PATHAK",0
+1784,"BITS F319","NEGOTIATION SKILLS AND TECHNIQUES","R RAGHUNATHAN",0
+2336,"BITS F327","ARTIFICIAL INTELLIGENCE FOR ROBOTICS","ABHISHEK SARKAR,Abhishek Sarkar,George Yuvaraj",0
+1893,"BITS F399","HUMANISTIC THEO OF SC & TECH","BISWANATH DASH",0
+1592,"BITS F412","PRACTICE SCHOOL II","TO BE ANNOUNCED",0
+1615,"BITS F413","PRACTICE SCHOOL II","TO BE ANNOUNCED",0
+1248,"BITS F415","INTRODUCTION TO MEMS","SANKET GOEL,Sanket Goel,Sohan Dudala,Sanket Goel,Sohan Dudala",0
+1593,"BITS F421T","THESIS","SRIDHAR RAJU",0
+1616,"BITS F422T","THESIS","SRIDHAR RAJU",0
+1617,"BITS F423T","THESIS","SRIDHAR RAJU",0
+1619,"BITS F424T","THESIS","SRIDHAR RAJU",0
+1794,"BITS F428","ESSENTIALS OF STRATE MGT","SWATI ALOK",0
+1811,"BITS F441","ROBOTICS","YV DASESWARA RAO",0
+1812,"BITS F442","REMOTE SENS & IMAGE PROC","K RAJITHA",0
+1796,"BITS F462","RENEWABLE ENERGY","M SRINIVAS",0
+1338,"BITS F463","CRYPTOGRAPHY","G GEETHAKUMARI,Chaitra C R,Priyanka Rushikesh Chaudh",0
+1339,"BITS F464","MACHINE LEARNING","PARESH SAXENA,K Simran,Nida Fatima",0
+547,"BITS G513","STUDY IN ADVANCED TOPICS","V V KRISHNA VENUGANTI",0
+754,"BITS G529","RESEARCH PROJECT I","V V KRISHNA VENUGANTI",0
+755,"BITS G539","RESEARCH PROJECT II","V V KRISHNA VENUGANTI",0
+2003,"BITS G540","RESEARCH PRACTICE","V V KRISHNA VENUGANTI",0
+2165,"BITS G563T","DISSERTATION","V V KRISHNA VENUGANTI",0
+809,"BITS G639","PRACTICE SCHOOL","TO BE ANNOUNCED",0
+757,"BITS G649","READING COURSE","V V KRISHNA VENUGANTI",0
+2167,"BITS G661","RESEARCH METHODOLOGY I","SATYAPAUL SINGH AMART,Debirupa Mitra",0
+1191,"CE F241","ANALYSIS OF STRUCTURES","SHIVANG SHEKHAR,Chirdeep N R",0
+1192,"CE F242","CONSTRUCTION PLANNING & TECH","CHANDU PARIMI,A Vasan,Chandu Parimi,Sheik Mohammed Zoheb Na",0
+1193,"CE F243","SOIL MECHANICS","ANASUA GUHARAY,G Sachin Chakravart,Ankur Abhishek,Anasua Guharay",0
+1194,"CE F244","HIGHWAY ENGINEERING","BANDHAN BANDHU MAJU,Sridhar Raju,Vuthipalli Harshitha,Bandhan Bandhu Majumdar",0
+1652,"CE F266","STUDY PROJECT","ANMALA JAGADEESH",0
+2281,"CE F320","DESIGN OF REINFORCED CONCRETE","ARKAMITRA KAR,Raghu Piska,Arkamitra Kar,Raghu Piska",0
+2282,"CE F321","ENGINEERING HYDROLOGY","K SRINIVASA RAJU,K Srinivasa Raju,Vogeti Rishith Kumar,K Srinivasa Raju,Vogeti Rishith Kumar",0
+1199,"CE F342","WATER & WASTEWATER TREAT","MURARI R R VARMA,Sandra Maria Cherian,Jittin Varghese,Nagalapalli Satish,Murari R R Varma,Murari R R Varma",0
+1200,"CE F343","DESIGN OF STEEL STRUCTURES","PN RAO,PN Rao,PN Rao",0
+1667,"CE F366","LABORATORY PROJECT","CHANDU PARIMI",0
+1737,"CE F367","LABORATORY PROJECT","CHANDU PARIMI",0
+1686,"CE F376","DESIGN PROJECT","A VASAN",0
+1753,"CE F377","DESIGN PROJECT","A VASAN",0
+1223,"CE F415","DES OF PREST CONC STRUCT","BAHURUDEEN A",0
+1230,"CE F416","COMP APPL IN CIVIL ENGG","ARKAMITRA KAR,Arkamitra Kar",0
+1218,"CE F425","AIRPORT RAIL & WATERWAYS","V VINAYAKA RAM",0
+1221,"CE F426","GEOSYN & REIN SOIL STR","ANASUA GUHARAY",0
+1219,"CE F432","STRUCTURAL DYNAMICS","CHANDU PARIMI",0
+1234,"CE F435","INTRODUCTION TO FEM","PN RAO",0
+79,"CE G513","ADVANCED COMPU TECH","RAGHU PISKA,Raghu Piska",0
+230,"CE G514","STRUCTURAL OPTIMIZATION","A VASAN",0
+256,"CE G518","PAVEMENT ANALYSIS & DES","V VINAYAKA RAM,V Vinayaka Ram,Md Ikramullah Khan",0
+2199,"CE G562","ADVANCED CONCRETE TECHNOLOGY","ARKAMITRA KAR,Arkamitra Kar",0
+2338,"CE G566","PUBLIC TRANSPORTATION","PRASANTA KUMAR SAHU,Prasanta Kumar Sahu",0
+2342,"CE G570","HIGHWAY CONSTRUCTION TECHNOLOG","SRIDHAR RAJU,Sridhar Raju",0
+2345,"CE G573","ROAD SAFETY AND ACCIDENT ANALYSIS","BANDHAN BANDHU MAJU,Bandhan Bandhu Majumdar",0
+2347,"CE G575","FREIGHT TRANSPORTATION","PRASANTA KUMAR SAHU,Prasanta Kumar Sahu",0
+688,"CE G613","ADV CONCRETE STRUCTURES","BAHURUDEEN A,Bahurudeen A",0
+108,"CE G615","EARTHQUAKE ENGINEERING","MOHAN S C,Mohan S C,Ch Bala Venkata Hareen",0
+346,"CE G616","BRIDGE ENGINEERING","SHIVANG SHEKHAR,Shivang Shekhar",0
+1180,"CHE F241","HEAT TRANSFER","AFKHAM MIR,Afkham Mir",0
+1181,"CHE F242","NUM METHOD FOR CHEM ENGG","ARNAB DUTTA,Arnab Dutta",0
+1182,"CHE F243","MATERIAL SCIENCE & ENGINEERING","D PURNIMA,D Purnima",0
+1183,"CHE F244","SEPARATION PROCESSES I","SATYAPAUL SINGH AMART,Satyapaul Singh Amarthaluri",0
+1653,"CHE F266","STUDY PROJECT","IYMAN ABRAR",0
+1188,"CHE F341","CHEMICAL ENGG LAB II","IYMAN ABRAR,Vuchuru Kalyan,Pankaj Kumar,P Saikiran",0
+1189,"CHE F342","PROCESS DYN & CONTROL","JAIDEEP CHATTERJEE,P Pradeep Reddy,Jaideep Chatterjee",0
+1190,"CHE F343","PROCESS DES PRINCIPLE II","PANKAJ KUMAR,Yaddanapudi Varun,Pankaj Kumar",0
+1668,"CHE F366","LABORATORY PROJECT","IYMAN ABRAR",0
+1738,"CHE F367","LABORATORY PROJECT","IYMAN ABRAR",0
+1687,"CHE F376","DESIGN PROJECT","IYMAN ABRAR",0
+1754,"CHE F377","DESIGN PROJECT","IYMAN ABRAR",0
+1213,"CHE F418","MODEL & SIMU IN CHE ENGG","VIKRANT KUMAR S",0
+1203,"CHE F419","CHEMICAL PROCESS TECH","RAMESH BABU A",0
+1202,"CHE F433","CORROSION ENGINEERING","RAMENDRA KISHOR PAL,",0
+2263,"CHE F498","COLLOIDS AND INTERFACE ENGINEERING","NANDINI BHANDARU",0
+2031,"CHE G532","ALTERNATE ENER RESOURCES","IYMAN ABRAR,Iyman Abrar",0
+2146,"CHE G552","ADV TRANSPORT PHENOMENA","VIKRANT KUMAR S",0
+729,"CHE G641","REACTION ENGINEERING","SRIKANTA DINDA,Srikanta Dinda,Suresh Kanuri",0
+1569,"CHEM F223","COLLOID & SURFACE CHEM","RAMAKRISHNAN G,Mariya Midhu Francis",0
+1554,"CHEM F241","INORGANIC CHEMISTRY II","SOUNAK ROY,Himanshu Aggarwal,Sounak Roy,Himanshu Aggarwal,Meenu P C",0
+1555,"CHEM F242","CHEMICAL EXPER I","ARIJIT MUKHERJEE,Anupam Bhattacharya,B Aniket Diliprao,D Ramaiah,Sruthi Peesapati",0
+1556,"CHEM F243","ORGANIC CHEMISTRY II","MANAB CHAKRAVARTY,Arijit Mukherjee,Shouvik Bhuin,Manab Chakravarty,Arijit Mukherjee",0
+1557,"CHEM F244","PHYSICAL CHEMISTRY III","K SUMITHRA,K Sumithra,Sahithi Reddy Andru",0
+1654,"CHEM F266","STUDY PROJECT","BALAJI GOPALAN",0
+1577,"CHEM F327","ELECTROCHEM FUNDA & APPL","DURBA ROY,Jayapriya V",0
+1580,"CHEM F329","ANALYTICAL CHEMISTRY","N RAJESH,N Rajesh,Arunraj B",0
+1561,"CHEM F341","CHEMICAL EXPER II","BALAJI GOPALAN,Chanchal Chakravarthy,Dinabandhu Patra,Mollah Rohan Ahsan,Reeshma Rameshan,Sounak Roy",0
+1562,"CHEM F342","ORGANIC CHEMISTRY IV","ANUPAM BHATTACHARYA,Anamika Bandyopadhyay",0
+1563,"CHEM F343","INORGANIC CHEMISTRY III","R KRISHNAN,R Krishnan,Soumitra Payra",0
+1669,"CHEM F366","LABORATORY PROJECT","J SUBBALAKSHMI,Anuradha Sureshrao Mohitka",0
+1739,"CHEM F367","LABORATORY PROJECT","J SUBBALAKSHMI,B Hima Bindu",0
+1688,"CHEM F376","DESIGN PROJECT","K SUMITHRA,Sayantan Halder",0
+1755,"CHEM F377","DESIGN PROJECT","K SUMITHRA",0
+1573,"CHEM F412","PHOTOCHEM & LASER SPECTR","AMIT NAG,Subit Kumar Saha",0
+1578,"CHEM F414","BIO & CHEMICAL SENSORS","J SUBBALAKSHMI,Nilanjan Dey,Sayantan Halder",0
+1713,"CHEM F491","SPECIAL PROJECT","CHANCHAL CHAKRAVART",0
+1094,"CS F211","DATA STRUCTURES & ALGO","CHITTARANJAN HOTA,Sameera Muhamed Salam,T Sahithi,Barsha Mitra,S Rasagna Vakkalanka,Barsha Mitra,Subhashree Barada,Manjanna B,S Rasagna Vakkalanka,Ramaswamy Venkatakrishna,T Sahithi,Sameera Muhamed Salam,NL Bhanumurthy,Ramaswamy Venkatakrishna,Manjanna B,NL Bhanumurthy",0
+1095,"CS F212","DATA BASE SYSTEMS","LOV KUMAR,Manik Gupta,K Simran,Manik Gupta,S Rasagna Vakkalanka,D V N Siva Kumar,P. Priyanka Chowdary,T Sahithi,Chaitra C R,K Simran,P. Priyanka Chowdary,Lov Kumar,Subhrakanta Panda,Subhrakanta Panda,D V N Siva Kumar,Lov Kumar",0
+1092,"CS F213","OBJECT ORIENTED PROG","R GURURAJ,R Gururaj,Pattiwar Shravan Kumar",0
+1313,"CS F241","MICROPROC & INTERFACING","PRASHANT WALI,Gopal Krishna Kamath M,Prashant Wali,Swapna Challagundla,Anil Kumar U,Gowtham Polumati,Harish Vijay Dixit,Swapna Challagundla,S K Sahoo,Mrunali Dnyaneshwar Wagh,Soumya J,TO BE ANNOUNCED,Soumya J,TO BE ANNOUNCED,Naveen Bokka,TO BE ANNOUNCED,Sourav Nandi,Battina Sindhu,Sourav Nandi,Battina Sindhu,Karumbaiah Chappanda Nan,Sarda Sharma,Karumbaiah Chappanda Nan,Sarda Sharma,Ramakant,Mrunali Dnyaneshwar Wagh,Ramakant,Gowtham Polumati,Anil Kumar U,Jayapiriya U S,TO BE ANNOUNCED,Kurakula Anudeep,Naveen Bokka,Kurakula Anudeep,Prashant Wali,Prashant Wali,Gopal Krishna Kamath M,Gopal Krishna Kamath M,Runa Kumari,Chetan Kumar V,Chetan Kumar V,Prashant Wali,Gopal Krishna Kamath M,Subhradeep Pal,Subhradeep Pal",0
+1655,"CS F266","STUDY PROJECT","BARSHA MITRA",0
+1320,"CS F303","COMPUTER NETWORKS","SUVADIP BATABYAL,Suvadip Batabyal,Mandan Naresh,DipanJan Chakraborty,Chavali Lalitha,Paresh Saxena,Mandan Naresh,Nikumani Choudhury,Pattiwar Shravan Kumar,Rajib Ranjan Maiti,Pattiwar Shravan Kumar,Suvadip Batabyal,Paresh Saxena,Nikumani Choudhury,Rajib Ranjan Maiti,DipanJan Chakraborty",0
+1317,"CS F342","COMPUTER ARCHITECTURE","CHETAN KUMAR V,Chetan Kumar V,Sharvani Gadgil,Chetan Kumar V,Vikash Singh,Sharvani Gadgil,Vikash Singh",0
+1318,"CS F363","COMPILER CONSTRUCTION","ARUNA MALAPATI,Raghunath Reddy M,S Vishwanath Reddy,Raghunath Reddy M,Ramisetty Kavya,Sameer Singh,Chillara Anil Kumar,R Gururaj,S Vishwanath Reddy,Jabez J Christopher,Ramisetty Kavya,Raghunath Reddy M,Raghunath Reddy M,Raghunath Reddy M,Jabez J Christopher,Jabez J Christopher",0
+1319,"CS F364","DESIGN & ANAL OF ALGO","TATHAGATA RAY,Manjanna B,Manjanna B,Manjanna B,Raghunath Reddy M,S Vishwanath Reddy",0
+1670,"CS F366","LABORATORY PROJECT","BARSHA MITRA",0
+1740,"CS F367","LABORATORY PROJECT","BARSHA MITRA",0
+1315,"CS F372","OPERATING SYSTEMS","DIPANJAN CHAKRABORTY,Mandan Naresh",0
+1689,"CS F376","DESIGN PROJECT","BARSHA MITRA",0
+1756,"CS F377","DESIGN PROJECT","BARSHA MITRA",0
+1333,"CS F407","ARTIFICIAL INTELLIGENCE","CHITTARANJAN HOTA,K Sai Anirudh,Prerna Saurabh",0
+1322,"CS F415","DATA MINING","APURBA DAS,Deepa Kumari",0
+1325,"CS F441","SEL TOPICS FROM COMP SC","RAMASWAMY VENKATAKR",0
+1857,"CS F469","INFORMATION RETRIEVAL","NL BHANUMURTHY,Deepa Kumari",0
+507,"CS G513","NETWORK SECURITY","RAJIB RANJAN MAITI,Rajib Ranjan Maiti,Anand Agrawal",0
+2449,"CS G516","ADVANCED DATABASE SYSTEMS","SUBHRAKANTA PANDA,Subhrakanta Panda",0
+2106,"CS G520","ADVANCED DATA MINING","JABEZ J CHRISTOPHER,Ramisetty Kavya",0
+2052,"CS G523","SOFTWARE FOR EMBEDDED SYS","SOUMYA J,Soumya J,Aparna Nair M K",0
+2006,"CS G524","ADV COMPUTER ARCHITECTURE","G GEETHAKUMARI,G Geethakumari,Chillara Anil Kumar",0
+2116,"DE G513","TRIBOLOGY","PRABAKARAN SARAVANA,Prabakaran Saravanan",0
+436,"DE G514","FRACTURE MECHANICS","AMOL VUPPULURI,Amol Vuppuluri,Brajesh Kumar Panigrahi",0
+2516,"ECE F216","ELECTRONIC DEVICES SIMULATION LABORATORY","SAYAN KANUNGO,Aditya Tiwari,Parikshit Parshuram Sahatiy",0
+1384,"ECE F241","MICROPROC & INTERFACING","PRASHANT WALI,Gopal Krishna Kamath M,Prashant Wali,Swapna Challagundla,Anil Kumar U,Gowtham Polumati,Harish Vijay Dixit,Swapna Challagundla,S K Sahoo,Mrunali Dnyaneshwar Wagh,Soumya J,TO BE ANNOUNCED,Soumya J,TO BE ANNOUNCED,Naveen Bokka,TO BE ANNOUNCED,Sourav Nandi,Battina Sindhu,Sourav Nandi,Battina Sindhu,Karumbaiah Chappanda Nan,Sarda Sharma,Karumbaiah Chappanda Nan,Sarda Sharma,Ramakant,Mrunali Dnyaneshwar Wagh,Ramakant,Gowtham Polumati,Anil Kumar U,Jayapiriya U S,TO BE ANNOUNCED,Kurakula Anudeep,Naveen Bokka,Kurakula Anudeep,Prashant Wali,Prashant Wali,Gopal Krishna Kamath M,Gopal Krishna Kamath M,Runa Kumari,Chetan Kumar V,Chetan Kumar V,Prashant Wali,Gopal Krishna Kamath M,Subhradeep Pal,Subhradeep Pal",0
+1385,"ECE F242","CONTROL SYSTEMS","PRATYUSH CHAKRABORT,Ankur Bhattacharjee,Alivelu Manga Parimi,Joyjit Mukherjee,Ankur Bhattacharjee,Ankur Bhattacharjee,Alivelu Manga Parimi,Manish Laxminarayan Bhaiy,Pratyush Chakraborty,Pratyush Chakraborty,Joyjit Mukherjee",0
+1386,"ECE F243","SIGNALS & SYSTEMS","RAMAKANT,BVVSN Prabhakar Rao,Ramakant,BVVSN Prabhakar Rao,BVVSN Prabhakar Rao,Venkateswaran R,Venkateswaran R,Amit Ranjan Azad,Amit Ranjan Azad",0
+1387,"ECE F244","MICROELECTRONIC CIRCUITS","SYED ERSHAD AHMED,Karumbaiah Chappanda Nan,Syed Ershad Ahmed,Syed Ershad Ahmed,Syed Ershad Ahmed,Karumbaiah Chappanda Nan,Karumbaiah Chappanda Nan,Surya Shankar Dan,Surya Shankar Dan",0
+1701,"ECE F266","STUDY PROJECT","STP SRINIVAS",0
+1894,"ECE F312","EM FIELDS LAB MICRO ENGG LAB","HARISH VIJAY DIXIT,G Jayeshkumar Pintubhai",0
+1391,"ECE F341","ANALOG ELECTRONICS","PRASANT KUMAR P,Amit Kumar Panda,Prasant Kumar P,TO BE ANNOUNCED,Prasant Kumar P,TO BE ANNOUNCED,Rajesh Kumar Tripathy,TO BE ANNOUNCED,Chaluvadi V Naga Bhaskar,Renuka.H,Joyjit Mukherjee,Chaluvadi V Naga Bhaskar,Joyjit Mukherjee,Prasant Kumar P,Prasant Kumar P,Amit Kumar Panda,Amit Kumar Panda,Rajesh Kumar Tripathy,Rajesh Kumar Tripathy,Rajesh Kumar Tripathy",0
+1595,"ECE F343","COMMUNICATION NETWORKS","S K SAHOO,S K Sahoo,S K Sahoo,S K Sahoo",0
+1390,"ECE F344","INFO THEORY & CODING","RUNA KUMARI,Runa Kumari,Runa Kumari,Runa Kumari",0
+1702,"ECE F366","LABORATORY PROJECT","SUBHRADEEP PAL",0
+1705,"ECE F367","LABORATORY PROJECT","SUBHRADEEP PAL",0
+1703,"ECE F376","DESIGN PROJECT","KARUMBAIAH CHAPPANDA",0
+1706,"ECE F377","DESIGN PROJECT","KARUMBAIAH CHAPPANDA",0
+1396,"ECE F416","DIGITAL COMMUNICATION","BALASUBRAMANIAN M",0
+1023,"ECON F211","PRINCIPLES OF ECONOMICS","ARCHANA SRIVASTAVA,Bheemeshwar Reddy A,Mini Thomas,Rishi Kumar,Sudatta Banerjee,Archana Srivastava,Keerti Mallela,Bheemeshwar Reddy A,Mini Thomas,Rishi Kumar,Sudatta Banerjee,Bincy George",0
+1120,"ECON F212","FUNDA OF FIN AND ACCOUNT","NIRANJAN SWAIN,Aaishwarya Narayanan,T Nagaraju",0
+1442,"ECON F241","ECONOMETRIC METHODS","BHEEMESHWAR REDDY A,Bheemeshwar Reddy A,Athary Janiso",0
+1443,"ECON F242","MICROECONOMICS","DUSHYANT KUMAR,Dushyant Kumar,Prakash Kumar Shukla",0
+1444,"ECON F243","MACROECONOMICS","SUNNY KUMAR SINGH,Sunny Kumar Singh,Salva.K",0
+1445,"ECON F244","ECONOMIC OF GROWTH & DEV","SUDATTA BANERJEE,Sudatta Banerjee,Soumya Sucharita Panda",0
+1656,"ECON F266","STUDY PROJECT","MINI THOMAS",0
+1923,"ECON F315","FINANCIAL MANAGEMENT","NIVEDITA SINHA,Tanaji Pavani Prabha",0
+1449,"ECON F341","PUBLIC FIN THEO & POLICY","MINI THOMAS,Mini Thomas,Ummuhabeeba Chaliyan",0
+1450,"ECON F342","APPLIED ECONOMETRICS","RISHI KUMAR,Rishi Kumar,Amrita Pani",0
+1451,"ECON F343","ECONOMIC ANAL OF PUB POL","DURGESH C PATHAK,Durgesh C Pathak",0
+2184,"ECON F345","BEHAVIORAL ECONOMICS","DUSHYANT KUMAR",0
+1565,"ECON F354","DERIVATIVES & RISK MGMT","SHREYA BISWAS,Pratheeksha G",0
+1547,"ECON F355","BUSS ANAL & VALUATION","NIRANJAN SWAIN,Shreya Lahiri",0
+1684,"ECON F366","LABORATORY PROJECT","MINI THOMAS",0
+1741,"ECON F367","LABORATORY PROJECT","MINI THOMAS",0
+1690,"ECON F376","DESIGN PROJECT","MINI THOMAS",0
+1757,"ECON F377","DESIGN PROJECT","MINI THOMAS",0
+1550,"ECON F411","PROJECT APPRAISAL","SUNNY KUMAR SINGH",0
+1566,"ECON F412","SECUR ANAL & PORTFOL MGT","SHREYA BISWAS,Nivedita Sinha",0
+1590,"ECON F416","REGIONAL ECONOMICS","VIVEKANANDA MUKHERJE",0
+1874,"ECON F434","INTERNATIONAL BUSINESS","ARCHANA SRIVASTAVA",0
+1875,"ECON F435","MARKETING RESEARCH","C H YAGANTI",0
+1726,"ECON F491","SPECIAL PROJECT","MINI THOMAS",0
+2494,"EEE F216","ELECTRONIC DEVICE SIMULATION LAB","SAYAN KANUNGO,Aditya Tiwari,Parikshit Parshuram Sahatiy",0
+1238,"EEE F241","MICROPROC & INTERFACING","PRASHANT WALI,Gopal Krishna Kamath M,Prashant Wali,Swapna Challagundla,Anil Kumar U,Gowtham Polumati,Harish Vijay Dixit,Swapna Challagundla,S K Sahoo,Mrunali Dnyaneshwar Wagh,Soumya J,TO BE ANNOUNCED,Soumya J,TO BE ANNOUNCED,Naveen Bokka,TO BE ANNOUNCED,Sourav Nandi,Battina Sindhu,Sourav Nandi,Battina Sindhu,Karumbaiah Chappanda Nan,Sarda Sharma,Karumbaiah Chappanda Nan,Sarda Sharma,Ramakant,Mrunali Dnyaneshwar Wagh,Ramakant,Gowtham Polumati,Anil Kumar U,Jayapiriya U S,TO BE ANNOUNCED,Kurakula Anudeep,Naveen Bokka,Kurakula Anudeep,Prashant Wali,Prashant Wali,Gopal Krishna Kamath M,Gopal Krishna Kamath M,Runa Kumari,Chetan Kumar V,Chetan Kumar V,Prashant Wali,Gopal Krishna Kamath M,Subhradeep Pal,Subhradeep Pal",0
+1239,"EEE F242","CONTROL SYSTEMS","PRATYUSH CHAKRABORT,Ankur Bhattacharjee,Alivelu Manga Parimi,Joyjit Mukherjee,Ankur Bhattacharjee,Ankur Bhattacharjee,Alivelu Manga Parimi,Manish Laxminarayan Bhaiy,Pratyush Chakraborty,Pratyush Chakraborty,Joyjit Mukherjee",0
+1240,"EEE F243","SIGNALS & SYSTEMS","RAMAKANT,BVVSN Prabhakar Rao,Ramakant,BVVSN Prabhakar Rao,BVVSN Prabhakar Rao,Venkateswaran R,Venkateswaran R,Amit Ranjan Azad,Amit Ranjan Azad",0
+1241,"EEE F244","MICROELECTRONIC CIRCUITS","SYED ERSHAD AHMED,Karumbaiah Chappanda Nan,Syed Ershad Ahmed,Syed Ershad Ahmed,Syed Ershad Ahmed,Karumbaiah Chappanda Nan,Karumbaiah Chappanda Nan,Surya Shankar Dan,Surya Shankar Dan",0
+1889,"EEE F245","CONTROL SYSTEMS LABORATORY","SANDEEP KUMAR,Shrimathi H P,Sandeep Kumar,Priyalatha. P,Shrimathi H P,STP Srinivas,Priyalatha. P",0
+1900,"EEE F246","ELECTRICAL & ELECTRONIC CIRCUITS LABORATORY","BVVSN PRABHAKAR RAO,Jisy N K,Syed Ershad Ahmed,TO BE ANNOUNCED,Venkateswaran R,Adepu Vivek,Himanshi Awasthi,Joyjit Mukherjee,Rabindra Mohanty,Naresh Bahadursha,Pn Sidhartha,Samit Kumar Ghosh",0
+1657,"EEE F266","STUDY PROJECT","STP SRINIVAS",0
+1244,"EEE F312","POWER SYSTEMS","RABINDRA MOHANTY,N Praneeth,Rabindra Mohanty,Rabindra Mohanty,Mithun Mondal",0
+1245,"EEE F341","ANALOG ELECTRONICS","PRASANT KUMAR P,Amit Kumar Panda,Prasant Kumar P,TO BE ANNOUNCED,Prasant Kumar P,TO BE ANNOUNCED,Rajesh Kumar Tripathy,TO BE ANNOUNCED,Chaluvadi V Naga Bhaskar,Renuka.H,Joyjit Mukherjee,Chaluvadi V Naga Bhaskar,Joyjit Mukherjee,Prasant Kumar P,Prasant Kumar P,Amit Kumar Panda,Amit Kumar Panda,Rajesh Kumar Tripathy,Rajesh Kumar Tripathy,Rajesh Kumar Tripathy",0
+1246,"EEE F342","POWER ELECTRONICS","STP SRINIVAS,Sudha Radhika,Santhi Durganjali Challa,Sudha Radhika,Santhi Durganjali Challa,Sudha Radhika,Nawin Ra,STP Srinivas,Nawin Ra,STP Srinivas,STP Srinivas,Ankur Bhattacharjee,Ankur Bhattacharjee",0
+1902,"EEE F348","FPGA BASED SYSTEM DESIGN LAB","AMIT KUMAR PANDA,Aditi Sood,Samala Jagadheesh,Venkatarao Selamneni",0
+1731,"EEE F366","LABORATORY PROJECT","SUBHRADEEP PAL",0
+1742,"EEE F367","LABORATORY PROJECT","SUBHRADEEP PAL",0
+1691,"EEE F376","DESIGN PROJECT","KARUMBAIAH CHAPPANDA",0
+1758,"EEE F377","DESIGN PROJECT","KARUMBAIAH CHAPPANDA",0
+2288,"EEE F411","INTERNET OF THINGS","SANDEEP KUMAR,Sandeep Kumar,Sree Rama Amrutha Lahari,Sandeep Kumar,Ritesh Kumar Singh,Ponnalagu R N,Ritesh Kumar Singh",0
+1260,"EEE F416","DIGITAL COMMUNICATION","BALASUBRAMANIAN M",0
+1247,"EEE F432","MEDICAL INSTRUMENTATION","VENKATESWARAN R",0
+1257,"EEE F435","DIGITAL IMAGE PROCESSING","SUDHA RADHIKA",0
+1855,"EEE F474","ANTENNA THEORY AND DESIGN","HARISH VIJAY DIXIT,Harish Vijay Dixit,Neha Parmar",0
+1895,"EEE F477","MODELING OF FIELD-EFFECT NANO  DEVICES","SAYAN KANUNGO",0
+1901,"EEE F478","POWER SYSTEMS LAB","ALIVELU MANGA PARIMI,P Shambhu Prasad,Renuka Loka,Alivelu Manga Parimi,P Shambhu Prasad,Renuka Loka",0
+96,"EEE G592","MOBILE & PERSONAL COMMUNICATION","AMIT RANJAN AZAD,Amit Ranjan Azad,T Sachin Ravikant",0
+80,"EEE G622","ADVANCED DIGITAL COMMUNICATION","SUBHRADEEP PAL,Subhradeep Pal,V Sarath Sankar",0
+1539,"FIN F311","DERIVATIVES & RISK MGMT","SHREYA BISWAS,Pratheeksha G",0
+1545,"FIN F313","SECUR ANAL & PORTFOL MGT","SHREYA BISWAS,Nivedita Sinha",0
+1542,"FIN F315","FINANCIAL MANAGEMENT","NIVEDITA SINHA,Tanaji Pavani Prabha",0
+1942,"FIN F414","FINANCIAL RISK ANALYTICS AND MANAGEMENT","T NAGARAJU",0
+1130,"GS F211","MODERN POLITICAL CONCEPTS","LAVANYA SURESH",0
+1135,"GS F223","INTRO TO MASS COMM","SPANDAN BHATTACHARYA",0
+1171,"GS F233","PUBLIC POLICY","BISWANATH DASH",0
+1158,"GS F241","CREATIVE WRITING","ANHITI PATNAIK",0
+1165,"GS F245","EFFECTIVE PUBLIC SPEAK","SANTOSH  MAHAPATRA",0
+1174,"GS F312","APPLIED PHILOSOPHY","JAYESH A K",0
+1177,"GS F333","PUBLIC ADMINISTRATION","LAVANYA SURESH",0
+1603,"HSS F222","LINGUISTICS","PRANESH BHARGAVA",0
+1903,"HSS F237","CONTEMPORARY INDIAN ENGLISH FICTION","MAYA VINAY",0
+2308,"HSS F243","INTRODUCTION TO CRITICAL PEDAGOGY","SANTOSH  MAHAPATRA",0
+2321,"HSS F246","PHILOSOPHY OF NAGARJUNA","JAYESH A K",0
+1776,"HSS F266","STUDY PROJECT","PRANESH BHARGAVA",0
+1643,"HSS F316","POP LITER & CULT OF S ASIA","MAYA VINAY",0
+1599,"HSS F334","SRIMAD BHAGAVAD GITA","ARUNA LOLLA",0
+1606,"HSS F337","ENGLISH LITERARY FORMS AND MOVEMENTS","MG PRASUNA",0
+1607,"HSS F338","COMPARATIVE INDIAN LIT","MG PRASUNA",0
+1832,"HSS F340","POST COLONIAL LITERATURE","VIJAY KUMAR TADAKAMAL",0
+1834,"HSS F342","ADV COMMUNICATIVE ENG","PRANESH BHARGAVA",0
+1626,"HSS F346","INTERNATIONAL RELATIONS","SUCHISMITA SATPATHY",0
+2268,"HSS F361","URBAN POLICY AND GOVERNANCE","SUCHISMITA SATPATHY",0
+2270,"HSS F363","DISASTER AND DEVELOPMENT","BISWANATH DASH",0
+2272,"HSS F365","SCIENCE OF SUSTAINABLE HAPPINESS","ARUNA LOLLA",0
+2290,"HSS F369","CASTE AND GENDER IN INDIA","SHILPAA ANAND",0
+2500,"INSTR F216","ELECTRONIC DEVICE SIMULATION","SAYAN KANUNGO,Aditya Tiwari,Parikshit Parshuram Sahatiy",0
+1341,"INSTR F241","MICROPROC & INTERFACING","PRASHANT WALI,Gopal Krishna Kamath M,Prashant Wali,Swapna Challagundla,Anil Kumar U,Gowtham Polumati,Harish Vijay Dixit,Swapna Challagundla,S K Sahoo,Mrunali Dnyaneshwar Wagh,Soumya J,TO BE ANNOUNCED,Soumya J,TO BE ANNOUNCED,Naveen Bokka,TO BE ANNOUNCED,Sourav Nandi,Battina Sindhu,Sourav Nandi,Battina Sindhu,Karumbaiah Chappanda Nan,Sarda Sharma,Karumbaiah Chappanda Nan,Sarda Sharma,Ramakant,Mrunali Dnyaneshwar Wagh,Ramakant,Gowtham Polumati,Anil Kumar U,Jayapiriya U S,TO BE ANNOUNCED,Kurakula Anudeep,Naveen Bokka,Kurakula Anudeep,Prashant Wali,Prashant Wali,Gopal Krishna Kamath M,Gopal Krishna Kamath M,Runa Kumari,Chetan Kumar V,Chetan Kumar V,Prashant Wali,Gopal Krishna Kamath M,Subhradeep Pal,Subhradeep Pal",0
+1342,"INSTR F242","CONTROL SYSTEMS","PRATYUSH CHAKRABORT,Ankur Bhattacharjee,Alivelu Manga Parimi,Joyjit Mukherjee,Ankur Bhattacharjee,Ankur Bhattacharjee,Alivelu Manga Parimi,Manish Laxminarayan Bhaiy,Pratyush Chakraborty,Pratyush Chakraborty,Joyjit Mukherjee",0
+1343,"INSTR F243","SIGNALS & SYSTEMS","RAMAKANT,BVVSN Prabhakar Rao,Ramakant,BVVSN Prabhakar Rao,BVVSN Prabhakar Rao,Venkateswaran R,Venkateswaran R,Amit Ranjan Azad,Amit Ranjan Azad",0
+1344,"INSTR F244","MICROELECTRONIC CIRCUITS","SYED ERSHAD AHMED,Karumbaiah Chappanda Nan,Syed Ershad Ahmed,Syed Ershad Ahmed,Syed Ershad Ahmed,Karumbaiah Chappanda Nan,Karumbaiah Chappanda Nan,Surya Shankar Dan,Surya Shankar Dan",0
+1660,"INSTR F266","STUDY PROJECT","STP SRINIVAS",0
+1348,"INSTR F341","ANALOG ELECTRONICS","PRASANT KUMAR P,Amit Kumar Panda,Prasant Kumar P,TO BE ANNOUNCED,Prasant Kumar P,TO BE ANNOUNCED,Rajesh Kumar Tripathy,TO BE ANNOUNCED,Chaluvadi V Naga Bhaskar,Renuka.H,Joyjit Mukherjee,Chaluvadi V Naga Bhaskar,Joyjit Mukherjee,Prasant Kumar P,Prasant Kumar P,Amit Kumar Panda,Amit Kumar Panda,Rajesh Kumar Tripathy,Rajesh Kumar Tripathy,Rajesh Kumar Tripathy",0
+1349,"INSTR F342","POWER ELECTRONICS","STP SRINIVAS,Sudha Radhika,Santhi Durganjali Challa,Sudha Radhika,Santhi Durganjali Challa,Sudha Radhika,Nawin Ra,STP Srinivas,Nawin Ra,STP Srinivas,STP Srinivas,Ankur Bhattacharjee,Ankur Bhattacharjee",0
+1350,"INSTR F343","INDUS INSTRUMENT & CONT","PONNALAGU R N,Ponnalagu R N,Ponnalagu R N",0
+1734,"INSTR F366","LABORATORY PROJECT","SUBHRADEEP PAL",0
+1745,"INSTR F367","LABORATORY PROJECT","SUBHRADEEP PAL",0
+1694,"INSTR F376","DESIGN PROJECT","KARUMBAIAH CHAPPANDA",0
+1761,"INSTR F377","DESIGN PROJECT","KARUMBAIAH CHAPPANDA",0
+1351,"INSTR F432","MEDICAL INSTRUMENTAITON","VENKATESWARAN R",0
+1529,"IS F341","SOFTWARE ENGINEERING","NARASIMHA BOLLOJU,Narasimha Bolloju,Subhashree Barada",0
+1012,"MATH F113","PROBABILITY AND STATISTICS","Sabyasachi Dey,Hirendra Kumar Garai",0
+1123,"MATH F213","DISCRETE MATHEMATICS","PK SAHOO,Sajith P",0
+1340,"MATH F231","NUMBER THEORY","NABIN KUMAR MEHER",0
+1465,"MATH F241","MATHEMATICAL METHODS","JAGAN MOHAN J,Kshma Trivedi,Sushil Pathak",0
+1466,"MATH F242","OPERATIONS RESEARCH","DK SATPATHI,Ashwini S,Tathe Kartik Vilasrao",0
+1467,"MATH F243","GRAPHS AND NETWORKS","A MICHAEL ALPHONSE,Priyanka Vishwakarma,Sunil Rampuria",0
+1468,"MATH F244","MEASURE & INTEGRATION","SHARAN GOPAL,Anshid Aboobacker,Purohit Nisarg Bharatbhai",0
+1662,"MATH F266","STUDY PROJECT","SABYASACHI DEY",0
+1475,"MATH F314","ALGEBRA-II","PRATYUSHA CHATTOPADH",0
+1472,"MATH F341","INTRO TO FUNCTIONAL ANAL","JHUMA SEN GUPTA,Nakidi Shravani,Debarati Mondal",0
+1473,"MATH F342","DIFFERENTIAL GEOMETRY","SUMIT KUMAR V,Sri Sakti Swarup Anupindi,G Vinodkumar Rajlingappa",0
+1474,"MATH F343","PARTIAL DIFF EQUATIONS","G MURALI MOHAN REDDY,Sanjay Mandal,Sandhya Mel",0
+1479,"MATH F353","STATISTICAL INFER & APP","FARIDA PARVEZ BARBHUI",0
+1679,"MATH F366","LABORATORY PROJECT","NIRMAN GANGULY",0
+1747,"MATH F367","LABORATORY PROJECT","NIRMAN GANGULY",0
+1696,"MATH F376","DESIGN PROJECT","PRATYUSHA CHATTOPADH",0
+1763,"MATH F377","DESIGN PROJECT","PRATYUSHA CHATTOPADH",0
+1882,"MATH F420","MATHEMATICAL MODELLING","SANTANU KOLEY",0
+1480,"MATH F421","COMBINATORIAL MATHEMATICS","DEBOPAM CHAKRABORTH",0
+1921,"MATH F422","NUM MTHD FOR PARTIAL DIFF EQ","ANIL NEMILI",0
+1880,"MATH F456","COSMOLOGY","B MISHRA",0
+1476,"MATH F471","NONLINEAR OPTIMIZATION","K VENKATA RATNAM",0
+2397,"ME F218","ADVANCED MECHANICS OF SOLIDS","BRAJESH KUMAR PANIGR,Balija Upendra,Brajesh Kumar Panigrahi,Gudlavalleti Deepak Kumar,Brajesh Kumar Panigrahi,TO BE ANNOUNCED,Pavan Kumar P",0
+2398,"ME F219","MANUFACTURING PROCESSES","N SURESH KUMAR REDDY,Petla Sivateja,Prabakaran Saravanan,Srinivasa Murali Kartheek S,N Suresh Kumar Reddy,Ankit Sharma,Petla Sivateja,Srinivasa Murali Kartheek S,N Suresh Kumar Reddy,Ankit Sharma,Prabakaran Saravanan,Jose Santo,Prabakaran Saravanan",0
+2430,"ME F220","HEAT TRANSFER","SATISH K DUBEY,J Murali Mohan,M Srinivas,Sunkara Prudhvi Raj,M Srinivas,B Sravya,Shaik Gouse Ahammad,Shaik Gouse Ahammad,Satish K Dubey,J Murali Mohan,Satish K Dubey,Sunkara Prudhvi Raj,Satish K Dubey",0
+2399,"ME F221","MECHANISMS AND MACHINES","YV DASESWARA RAO,Brajesh Kumar Panigrahi,YV Daseswara Rao,Brajesh Kumar Panigrahi,George Yuvaraj",0
+1263,"ME F241","MACHINE DESIGN & DRAWING","NITIN RAMESH K,P Sandeep,Nitin Ramesh K",0
+1264,"ME F242","IC ENGINES","S S DESHMUKH,S S Deshmukh",0
+1265,"ME F243","PRODUCTION TECHNIQUES I","N SURESH KUMAR REDDY,Petla Sivateja,Prabakaran Saravanan,Srinivasa Murali Kartheek S,N Suresh Kumar Reddy,Ankit Sharma,Petla Sivateja,Srinivasa Murali Kartheek S,N Suresh Kumar Reddy,Ankit Sharma,Prabakaran Saravanan,Jose Santo,Prabakaran Saravanan",0
+1266,"ME F244","KIN & DYN OF MACHINES","YV DASESWARA RAO,Brajesh Kumar Panigrahi,YV Daseswara Rao,Brajesh Kumar Panigrahi,George Yuvaraj",0
+1663,"ME F266","STUDY PROJECT","ABHISHEK SARKAR",0
+2406,"ME F318","COMPUTER-AIDED DESIGN","SP REGALLA,Gaurav Sharma,SP Regalla,Suswanth Poluru,TO BE ANNOUNCED,TO BE ANNOUNCED,TO BE ANNOUNCED,Veeraiahgari Vamshi,SP Regalla,Gaurav Sharma,SP Regalla,Suswanth Poluru,SP Regalla,Gudlavalleti Deepak Kumar,SP Regalla",0
+2407,"ME F319","VIBRATIONS AND CONTROL","G R SABAREESH,Arshad Javed,Kalyani Panigrahi,G R Sabareesh,Pichika S V V S Narayana,G R Sabareesh,Shaik Ayub Mohiddin,G R Sabareesh,Aarjoo Jaimin,G R Sabareesh",0
+2408,"ME F320","ENGINEERING OPTIMIZATION","AMIT KUMAR GUPTA,Vardhanapu Muralidhar,Amit Kumar Gupta,TO BE ANNOUNCED,Amit Kumar Gupta,Kolla Lakshman Rao,Amit Kumar Gupta,TO BE ANNOUNCED,Amit Kumar Gupta",0
+1270,"ME F341","PRIMEMOVERS & FLUID MACH","JEEVAN JAIDI,Kandula Uday Kumar Reddy,Santanu Prasad Datta,G Prashanth Kumar Reddy,Mrinal Ketan Jagirdar,Bagadi Ramana Murthy,Pardha Saradhi Gurugubelli,Kandula Uday Kumar Reddy,Jeevan Jaidi,G Prashanth Kumar Reddy,Jeevan Jaidi,Bagadi Ramana Murthy,Mrinal Ketan Jagirdar,TO BE ANNOUNCED,Mrinal Ketan Jagirdar",0
+1272,"ME F342","COMPUTER AIDED DESIGN","SP REGALLA,Gaurav Sharma,SP Regalla,Suswanth Poluru,TO BE ANNOUNCED,TO BE ANNOUNCED,TO BE ANNOUNCED,Veeraiahgari Vamshi,SP Regalla,Gaurav Sharma,SP Regalla,Suswanth Poluru,SP Regalla,Gudlavalleti Deepak Kumar,SP Regalla",0
+1271,"ME F343","MECHANICAL VIBRATIONS","G R SABAREESH,Arshad Javed,Kalyani Panigrahi,G R Sabareesh,Pichika S V V S Narayana,G R Sabareesh,Shaik Ayub Mohiddin,G R Sabareesh,Aarjoo Jaimin,G R Sabareesh",0
+1273,"ME F344","ENGINEERING OPTIMIZATION","AMIT KUMAR GUPTA,Vardhanapu Muralidhar,Amit Kumar Gupta,TO BE ANNOUNCED,Amit Kumar Gupta,Kolla Lakshman Rao,Amit Kumar Gupta,TO BE ANNOUNCED,Amit Kumar Gupta",0
+1680,"ME F366","LABORATORY PROJECT","PAVAN KUMAR P",0
+1748,"ME F367","LABORATORY PROJECT","PAVAN KUMAR P",0
+1697,"ME F376","DESIGN PROJECT","RAVI SHANKER VIDYARTH",0
+1764,"ME F377","DESIGN PROJECT","RAVI SHANKER VIDYARTH",0
+1810,"ME F423","MICRO-FLUIDICS & ITS APP","SATISH K DUBEY,Sanket Goel,Satish K Dubey,Sangam Srikanth",0
+2309,"ME F424","ENERGY MANAGEMENT","S S DESHMUKH",0
+1868,"ME F484","AUTOMOTIVE TECHNOLOGY","SUPRADEEPAN K",0
+322,"ME G512","FINITE ELEMENT METHOD","PARDHA SARADHI GURUG,Pardha Saradhi Gurugubelli",0
+410,"ME G515","COMPUT FLUID DYNAMICS","KRC MURTHY,KRC Murthy,Supradeepan K",0
+2087,"ME G539","COMP INTEGRATED MANUFACT","KURRA SURESH,Kurra Suresh,Wankhede Pankaj Rambhau,Kurra Suresh,Wankhede Pankaj Rambhau",0
+266,"ME G611","COMP AIDED ANAL & DESIGN","KURRA SURESH,Kurra Suresh",0
+739,"ME G631","ADVANCED HEAT TRANSFER","SANTANU PRASAD DATTA,Santanu Prasad Datta,N Jalaiah,Santanu Prasad Datta,N Jalaiah",0
+500,"MEL G623","ADVANCED VLSI DESIGN","SURYA SHANKAR DAN,Surya Shankar Dan,Soumi Saha",0
+224,"MEL G632","ANALOG IC DESIGN","PARIKSHIT PARSHURAM S,Arun Mohan B,Parikshit Parshuram Sahatiy",0
+484,"MEL G641","CAD FOR IC DESIGN","S K CHATTERJEE,S K Chatterjee,TO BE ANNOUNCED",0
+817,"MEL G642","VLSI ARCHITECTURE","S GURUNARAYANAN,S Gurunarayanan,G Sahith",0
+1664,"MF F266","STUDY PROJECT","ABHISHEK SARKAR",0
+1402,"MF F311","MECHATRONICS & AUTOMAT","ARSHAD JAVED,Arshad Javed,Kundan Kumar Singh",0
+1681,"MF F366","LABORATORY PROJECT","PAVAN KUMAR P",0
+1749,"MF F367","LABORATORY PROJECT","PAVAN KUMAR P",0
+1698,"MF F376","DESIGN PROJECT","RAVI SHANKER VIDYARTH",0
+1765,"MF F377","DESIGN PROJECT","RAVI SHANKER VIDYARTH",0
+1418,"MF F421","SUPPLY CHAIN MANAGEMENT","C P KIRAN",0
+1884,"MF F485","SUSTAINABLE MANUFACTURING","KUNDAN KUMAR SINGH",0
+1024,"MGTS F211","PRINCIPLES OF MANAGEMENT","SWATI ALOK,Swati Alok,Navya Kumar",0
+369,"MSE G511","MECHATRONICS","ARSHAD JAVED,Arshad Javed,Kundan Kumar Singh",0
+389,"MSE G512","MANUFACT PLANNING & CONT","AMRITHA PRIYADARSHINI,Sreejith S,Amritha Priyadarshini",0
+719,"MSE G531","CONCURRENT ENGINEERING","PIYUSH CHANDRA VERMA,Piyush Chandra Verma,Ashish Saurabh",0
+1932,"MST F332","MATERIALS PROCESSING","KARTHIK CHETAN,Prabakaran Saravanan",0
+2066,"MST G522","ADVANCED COMPOSITES","PAVAN KUMAR P,Pavan Kumar P",0
+1291,"PHA F241","PHARMACEUTICAL CHEMISTRY","D SRIRAM,D Sriram,Routholla Ganesh,Srashti Gopal Goyal,Sravani Pulya,D Sriram",0
+1292,"PHA F242","BIOLOGICAL CHEMISTRY","BALRAM GHOSH,Balram Ghosh,Aparajita Ghosh,Pravesh Sharma,Tarun,Balram Ghosh,Aparajita Ghosh,Pravesh Sharma,Tarun,Balram Ghosh",0
+1665,"PHA F266","STUDY PROJECT","SRINIVAS PRASAD K",0
+1299,"PHA F313","INSTRU METHODS OF ANAL","A SAJELI BEGUM,A Sajeli Begum,B Sony Priyanka,Ch Sai Sanjay,Pragya Paramita Pal,Shreya Shashank Chauhan,Velmurugan K,A Sajeli Begum,Ch Sai Sanjay,Deepanjan Datta,Pragya Paramita Pal,Shreya Shashank Chauhan,Velmurugan K,A Sajeli Begum",0
+1296,"PHA F341","PHARMACOLOGY II","ONKAR KULKARNI,S Kavitha,Lavanya S,Onkar Kulkarni,S Kavitha,Onkar Kulkarni",0
+1298,"PHA F342","MEDICINAL CHEMISTRY II","P YOGEESWARI,P Yogeeswari,D Deepika,Purbali Chakraborty,P Yogeeswari,Dipika Rani Sahu,Purbali Chakraborty,P Yogeeswari",0
+1301,"PHA F343","FORENSIC PHARMACY","BALRAM GHOSH,Balram Ghosh,Abhijeet Rajendra Joshi",0
+1302,"PHA F344","NATURAL DRUGS","A SAJELI BEGUM,A Sajeli Begum,Bollareddy Srivarsha Reddy,P. S Lakshmi Soukya,Samrun Nessa,A Sajeli Begum,Bollareddy Srivarsha Reddy,P. S Lakshmi Soukya,Samrun Nessa,A Sajeli Begum",0
+1682,"PHA F366","LABORATORY PROJECT","SRINIVAS PRASAD K",0
+1750,"PHA F367","LABORATORY PROJECT","SRINIVAS PRASAD K",0
+1699,"PHA F376","DESIGN PROJECT","SRINIVAS PRASAD K",0
+1766,"PHA F377","DESIGN PROJECT","SRINIVAS PRASAD K",0
+1303,"PHA F413","PHARMA MANG & QUAL CONTR","V V KRISHNA VENUGANTI",0
+1304,"PHA F414","BIOPHARMACEUTICS","NIRMAL J",0
+1305,"PHA F415","PATHOPHYSIOLOGY","SRINIVAS PRASAD K",0
+1307,"PHA F417","PHARMACOECONOMICS","ABHIJEET RAJENDRA JOS",0
+1724,"PHA F491","SPECIAL PROJECT","SRINIVAS PRASAD K",0
+351,"PHA G532","Q A & REGULATORY AFFAIRS","AKASH C,Panchal Kanan Jayesh Pann,Akash C,Parameswar Patra",0
+55,"PHA G543","CLINICAL RESEARCH","ARTI DHAR",0
+2292,"PHA G546","PHARMACEUTICAL BIO STATISTICS","R PUNNA RAO",0
+955,"PHA G613","PHARMACEUTICAL BIOTECH","NIRMAL J,Shubham Prakash Debaje,Nirmal J,Manisha Malani,Raghuraman Manimaran",0
+721,"PHA G632","DOSAGE FORM DESIGN","R PUNNA RAO,R Punna Rao,Mohd Shareef Khan,Radhika Rajiv Mahajan,Swagata Sinha",0
+1482,"PHY F241","ELECTROMAGNETIC THEORY II","SARMISTHA BANIK,Sarmistha Banik",0
+1483,"PHY F242","QUANTUM MECHANICS I","K V SHIV CHAITANYA,K V Shiv Chaitanya",0
+1484,"PHY F243","MATHEMATICAL METHODS OF PHYSICS","SWASTIK BHATTACHARYA,Swastik Bhattacharya",0
+1485,"PHY F244","MODERN PHYSICS LAB","VSN MURTHY,Geetika Sahu,Subash N. Karbelkar,Akhil U Nair",0
+1666,"PHY F266","STUDY PROJECT","PRASANT SAMANTRAY",0
+1494,"PHY F315","THEORY OF RELATIVITY","RAHUL NIGAM",0
+1489,"PHY F341","SOLID STATE PHYSICS","ARAVINDA N RAGHAVAN,Aravinda N Raghavan",0
+1490,"PHY F342","ATOMIC & MOLECULAR PHY","ASRARUL HAQUE,Asrarul Haque",0
+1491,"PHY F343","NUCLEAR & PARTICLE PHY","RAHUL NIGAM,Sarmistha Banik,Rahul Nigam,Sarmistha Banik",0
+1492,"PHY F344","ADVANCED PHYSICS LAB","B HARIHARA  VENKATARA,Kannan Ramaswamy,Nilofar Naaz,Priyanka Mitra",0
+1683,"PHY F366","LABORATORY PROJECT","VSN MURTHY",0
+1751,"PHY F367","LABORATORY PROJECT","VSN MURTHY",0
+1700,"PHY F376","DESIGN PROJECT","B HARIHARA  VENKATARA",0
+1767,"PHY F377","DESIGN PROJECT","B HARIHARA  VENKATARA",0
+2136,"PHY F379","THIN FILM TECHNOLOGY","VSN MURTHY,B Harihara  Venkataraman",0
+1495,"PHY F412","INTRO TO QUAN FIELD THEO","PRASANT SAMANTRAY",0
+1504,"PHY F420","QUANTUM OPTICS","ARANYA BHUTI BHATTACH",0
+1508,"PHY F425","ADV MATH METHODS OF PHY","SUBASH N. KARBELKAR",0
+2274,"PHY F431","GEOMETRICAL METHODS IN","SASHIDEEP GUTTI",0
