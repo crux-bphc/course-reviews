@@ -13,7 +13,7 @@
     "express-session": "^1.17.2",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
-    "passport": "^0.4.1",
+    "passport": "^0.6.0",
     "passport-google-oauth2": "^0.2.0",
     "pug": "3.0.1",
     "sqlite": "^4.0.23",
@@ -30,6 +30,6 @@
     "@types/passport-google-oauth": "^1.0.42",
     "@types/passport-google-oauth2": "^0.1.4",
     "faker": "^5.5.3",
-    "pdf2json": "^1.2.3"
+    "pdf2json": "^2.0.1"
   }
 }
