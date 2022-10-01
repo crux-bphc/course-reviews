@@ -15,7 +15,7 @@
     "morgan": "~1.9.1",
     "passport": "^0.4.1",
     "passport-google-oauth2": "^0.2.0",
-    "pug": "2.0.0-beta11",
+    "pug": "3.0.1",
     "sqlite": "^4.0.23",
     "sqlite3": "^5.0.2"
   },
