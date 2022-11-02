@@ -30,6 +30,6 @@
     "@types/passport-google-oauth": "^1.0.42",
     "@types/passport-google-oauth2": "^0.1.4",
     "faker": "^5.5.3",
-    "pdf2json": "^2.0.1"
+    "pdf2json": "^2.1.0"
   }
 }
