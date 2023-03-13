@@ -17,7 +17,7 @@
     "passport-google-oauth2": "^0.2.0",
     "pug": "3.0.1",
     "sqlite": "^4.0.23",
-    "sqlite3": "^5.0.2"
+    "sqlite3": "^5.1.5"
   },
   "devDependencies": {
     "@types/cookie-parser": "^1.4.2",
